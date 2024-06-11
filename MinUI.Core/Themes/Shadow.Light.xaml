@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<DropShadowEffect x:Key="LightThemeDarkShadowEffect" BlurRadius="8" ShadowDepth="4" Color="{DynamicResource DarkShadowColor}" Opacity="0.5" />
+	<DropShadowEffect x:Key="LightThemeLightShadowEffect" BlurRadius="8" ShadowDepth="4" Direction="135" Color="{DynamicResource LightShadowColor}" Opacity="0.5" />
+	<DropShadowEffect x:Key="LightThemeInnerDarkShadowEffect" BlurRadius="8" ShadowDepth="4" Direction="135" Color="{DynamicResource DarkShadowColor}" Opacity="0.5" />
+	<DropShadowEffect x:Key="LightThemeInnerLightShadowEffect" BlurRadius="8" ShadowDepth="4" Color="{DynamicResource LightShadowColor}" Opacity="0.5" />
+	<!--Color="{DynamicResource DarkShadowColor}"-->
+	<!--Color="{DynamicResource LightShadowColor}"-->
+</ResourceDictionary>

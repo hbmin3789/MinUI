@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ResourceDictionary.MergedDictionaries>
+		<!-- Common Themes -->
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/PrimaryLightBrush.xaml" />
+		<!-- Controls -->
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/Button.Light.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/SwitchButton.Light.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/ProgressBar.Light.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Shadow.Light.xaml" />
+	</ResourceDictionary.MergedDictionaries>
+	
+</ResourceDictionary>

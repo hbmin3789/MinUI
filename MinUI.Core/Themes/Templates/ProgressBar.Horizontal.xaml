@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:ctrls="clr-namespace:MinUI.Core"
+					xmlns:converters="clr-namespace:MinUI.Core.Converters">
+	<converters:ValueToProgressWidthConverter x:Key="ValueToProgressWidthConverter" />
+	<ControlTemplate x:Key="HorizontalProgressTemplate" TargetType="ctrls:ProgressBar">
+		<Grid>
+			<!-- Inner Background -->
+			<Border CornerRadius="10"
+					Width="{TemplateBinding Width}"
+					Height="{TemplateBinding Height}"
+					Background="{DynamicResource BackgroundBrush}"
+					Effect="{DynamicResource LightThemeDarkShadowEffect}" />
+			<Border CornerRadius="10"
+					Width="{TemplateBinding Width}"
+					Height="{TemplateBinding Height}"
+					Background="{DynamicResource BackgroundBrush}"
+					Effect="{DynamicResource LightThemeLightShadowEffect}" />
+			<!-- Bar -->
+			<Border x:Name="progressBar"
+					CornerRadius="10"
+					Width="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}, Converter={StaticResource ValueToProgressWidthConverter}}"
+					Height="{TemplateBinding Height}"
+					Background="{TemplateBinding ProgressBarColor}"
+					ClipToBounds="True"
+					HorizontalAlignment="Left" />
+		</Grid>
+	</ControlTemplate>
+</ResourceDictionary>

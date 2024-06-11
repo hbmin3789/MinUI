@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:ctrls="clr-namespace:MinUI.Core"
+					xmlns:enum="clr-namespace:MinUI.Core.Enummerables"
+					xmlns:converters="clr-namespace:MinUI.Core.Converters">
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Templates/ProgressBar.Horizontal.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Templates/ProgressBar.Vertical.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Templates/ProgressBar.Doughnut.xaml" />
+	</ResourceDictionary.MergedDictionaries>
+	<Style TargetType="{x:Type ctrls:ProgressBar}">
+		<Style.Triggers>
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=ProgressType}"
+						 Value="{x:Static enum:EProgressType.Horizontal}">
+				<Setter Property="Template"
+						Value="{StaticResource HorizontalProgressTemplate}"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=ProgressType}"
+						 Value="{x:Static enum:EProgressType.Vertical}">
+				<Setter Property="Template"
+						Value="{StaticResource VerticalProgressTemplate}" />
+			</DataTrigger>
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=ProgressType}"
+						 Value="{x:Static enum:EProgressType.Doughnut}">
+				<Setter Property="Template"
+						Value="{StaticResource DoughnutProgressTemplate}" />
+			</DataTrigger>
+		</Style.Triggers>
+		<Style.Setters></Style.Setters>
+	</Style>
+</ResourceDictionary>
