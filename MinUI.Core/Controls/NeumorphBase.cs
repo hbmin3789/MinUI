@@ -13,7 +13,7 @@ namespace MinUI.Core;
 public class NeumorphBase : ContentControl, INeumorphBase
 {
     public static readonly DependencyProperty ReliefProperty = DependencyProperty.Register(
-    nameof(Relief), typeof(ERelief), typeof(NeumorphBase), new FrameworkPropertyMetadata(default(ERelief), FrameworkPropertyMetadataOptions.AffectsArrange));
+    nameof(Relief), typeof(ERelief), typeof(NeumorphBase), new FrameworkPropertyMetadata(ERelief.Embossed, FrameworkPropertyMetadataOptions.AffectsArrange));
 
     public ERelief Relief
     {

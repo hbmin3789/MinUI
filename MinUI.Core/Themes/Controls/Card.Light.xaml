@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:ctrls="clr-namespace:MinUI.Core"
+					xmlns:enum="clr-namespace:MinUI.Core.Enummerables">
+	<ControlTemplate x:Key="CardEmbossedTemplate" TargetType="{x:Type ctrls:Card}">
+		<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="{TemplateBinding CornerRadius}">
+			<Border x:Name="ContainerBackground" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Background="{DynamicResource BackgroundBrush}"
+					Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="{TemplateBinding CornerRadius}">
+				<ContentPresenter x:Name="PART_ContentContainer" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+						VerticalAlignment="{TemplateBinding VerticalContentAlignment}" ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"
+						ContentTemplateSelector="{TemplateBinding ContentTemplateSelector}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Content="{TemplateBinding Content}"
+						Cursor="{TemplateBinding Cursor}" />
+			</Border>
+		</Border>
+	</ControlTemplate>
+	<ControlTemplate x:Key="CardEngravedTemplate" TargetType="{x:Type ctrls:Card}">
+		<Grid>
+			<Border Background="{DynamicResource ButtonMouseDownBrush}" BorderThickness="2 2 0 0" BorderBrush="{DynamicResource DarkShadowBrush}" CornerRadius="{TemplateBinding CornerRadius}">
+				<Border.Effect>
+					<BlurEffect Radius="3" />
+				</Border.Effect>
+				<Border BorderThickness="0 0 2 2" BorderBrush="{DynamicResource LightShadowBrush}" CornerRadius="{TemplateBinding CornerRadius}"></Border>
+			</Border>
+			<ContentPresenter x:Name="PART_ContentContainer" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+					VerticalAlignment="{TemplateBinding VerticalContentAlignment}" ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"
+					ContentTemplateSelector="{TemplateBinding ContentTemplateSelector}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Content="{TemplateBinding Content}"
+					Cursor="{TemplateBinding Cursor}" />
+		</Grid>
+	</ControlTemplate>
+	<Style TargetType="{x:Type ctrls:Card}">
+		<Style.Triggers>
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=Relief}" Value="{x:Static enum:ERelief.Embossed}">
+				<Setter Property="Template" Value="{StaticResource CardEmbossedTemplate}"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=Relief}" Value="{x:Static enum:ERelief.Engraved}">
+				<Setter Property="Template" Value="{StaticResource CardEngravedTemplate}" />
+			</DataTrigger>
+		</Style.Triggers>
+	</Style>
+</ResourceDictionary>
