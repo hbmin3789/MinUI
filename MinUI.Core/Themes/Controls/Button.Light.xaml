@@ -4,25 +4,25 @@
 					xmlns:converters="clr-namespace:MinUI.Core.Converters">
 	<converters:IsMouseOverToBackgroundConverter x:Key="IsMouseOverToBackgroundConverter"/>
 	<ControlTemplate x:Key="CommonButtonControlTemplate" TargetType="{x:Type ctrls:Button}">
-		<Grid Effect="{DynamicResource LightThemeLightShadowEffect}">
-			<Grid x:Name="ContainerBackground" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
+		<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="5">
+			<Border x:Name="ContainerBackground" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
 					Background="{Binding RelativeSource={RelativeSource Mode=TemplatedParent},Path=IsMouseOver,Converter={StaticResource IsMouseOverToBackgroundConverter}}"
-					Effect="{DynamicResource LightThemeDarkShadowEffect}">
+					Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="5">
 				<ContentPresenter x:Name="PART_ButtonContainer" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
 						VerticalAlignment="{TemplateBinding VerticalContentAlignment}" ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"
 						ContentTemplateSelector="{TemplateBinding ContentTemplateSelector}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Content="{TemplateBinding Content}"
 						Cursor="{TemplateBinding Cursor}" />
-			</Grid>
-		</Grid>
+			</Border>
+		</Border>
 	</ControlTemplate>
 	<ControlTemplate x:Key="MousePressedButtonControlTemplate" TargetType="{x:Type ctrls:Button}">
 		<Grid x:Name="ContainerBackground" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
 			<!-- inner shadow -->
-			<Border Background="{DynamicResource ButtonMouseDownBrush}" BorderThickness="2 2 0 0" BorderBrush="{DynamicResource DarkShadowBrush}">
+			<Border Background="{DynamicResource ButtonMouseDownBrush}" BorderThickness="2 2 0 0" BorderBrush="{DynamicResource DarkShadowBrush}" CornerRadius="5">
 				<Border.Effect>
 					<BlurEffect Radius="3"/>
 				</Border.Effect>
-				<Border BorderThickness="0 0 2 2" BorderBrush="{DynamicResource LightShadowBrush}" />
+				<Border BorderThickness="0 0 2 2" BorderBrush="{DynamicResource LightShadowBrush}" CornerRadius="5"/>
 			</Border>
 			<ContentPresenter x:Name="PART_ButtonContainer" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
 					VerticalAlignment="{TemplateBinding VerticalContentAlignment}" ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"

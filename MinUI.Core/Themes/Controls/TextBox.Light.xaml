@@ -2,17 +2,40 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
 					xmlns:ctrls="clr-namespace:MinUI.Core"
 					xmlns:converters="clr-namespace:MinUI.Core.Converters">
+	<ControlTemplate x:Key="DefaultTextBoxStyle" TargetType="{x:Type ctrls:TextBox}">
+		<Grid>
+			<Border Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="5" Cursor="IBeam">
+				<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="5" Background="{DynamicResource BackgroundBrush}">
+					<Grid>
+						<ScrollViewer x:Name="PART_ContentHost" />
+					</Grid>
+				</Border>
+			</Border>
+		</Grid>
+	</ControlTemplate>
+	<ControlTemplate x:Key="FocusedTextBoxStyle" TargetType="{x:Type ctrls:TextBox}">
+		<Grid>
+			<Border Background="{DynamicResource BackgroundBrush}" BorderThickness="2 2 0 0" BorderBrush="{DynamicResource DarkShadowBrush}" CornerRadius="5">
+				<Border.Effect>
+					<BlurEffect Radius="3" />
+				</Border.Effect>
+				<Border BorderThickness="0 0 2 2" BorderBrush="{DynamicResource LightShadowBrush}" CornerRadius="5" />
+			</Border>
+			<ScrollViewer x:Name="PART_ContentHost" />
+		</Grid>
+	</ControlTemplate>
 	<Style TargetType="{x:Type ctrls:TextBox}">
-		<Style.Setters>
-			<Setter Property="Template">
-				<Setter.Value>
-					<ControlTemplate TargetType="{x:Type ctrls:TextBox}">
-						<Grid>
-							<ContentPresenter />
-						</Grid>
-					</ControlTemplate>
-				</Setter.Value>
-			</Setter>
-		</Style.Setters>
+		<Style.Triggers>
+			<Trigger Property="IsFocused" Value="False">
+				<Trigger.Setters>
+					<Setter Property="Template" Value="{StaticResource DefaultTextBoxStyle}"/>
+				</Trigger.Setters>
+			</Trigger>
+			<Trigger Property="IsFocused" Value="True">
+				<Trigger.Setters>
+					<Setter Property="Template" Value="{StaticResource FocusedTextBoxStyle}" />
+				</Trigger.Setters>
+			</Trigger>
+		</Style.Triggers>
 	</Style>
 </ResourceDictionary>
