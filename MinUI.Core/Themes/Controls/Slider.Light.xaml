@@ -3,35 +3,46 @@
 					xmlns:ctrls="clr-namespace:MinUI.Core"
 					xmlns:converters="clr-namespace:MinUI.Core.Converters">
 	<converters:ValueToSliderWidthConverter x:Key="ValueToSliderWidthConverter"/>
-	<Style x:Key="SliderButtonStyle" TargetType="Button">
-		<Setter Property="Template">
-			<Setter.Value>
-				<ControlTemplate TargetType="Button">
-					<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="50" Cursor="Hand">
-						<Border Width="{TemplateBinding Height}" Height="{TemplateBinding Height}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="50"
-								Background="{DynamicResource BackgroundBrush}">
-							<ContentPresenter />
-						</Border>
-					</Border>
-				</ControlTemplate>
-			</Setter.Value>
-		</Setter>
-	</Style>
+	<converters:IsMouseDownToSliderButtonTemplateConverter x:Key="IsMouseDownToSliderButtonTemplateConverter" />
+	<ControlTemplate x:Key="DefaultSliderButtonTemplate" TargetType="Button">
+		<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="50" Cursor="Hand">
+			<Border Width="{TemplateBinding Height}" Height="{TemplateBinding Height}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="50"
+					Background="{DynamicResource BackgroundBrush}">
+				<ContentPresenter />
+			</Border>
+		</Border>
+	</ControlTemplate>
+	<ControlTemplate x:Key="MouseDownSliderButtonTemplate" TargetType="Button">
+		<Grid>
+			<Border Background="{DynamicResource ButtonMouseDownBrush}" BorderThickness="2 2 0 0" BorderBrush="{DynamicResource DarkShadowBrush}" CornerRadius="50">
+				<Border.Effect>
+					<BlurEffect Radius="3" />
+				</Border.Effect>
+				<Border BorderThickness="0 0 2 2" BorderBrush="{DynamicResource LightShadowBrush}" CornerRadius="50" />
+			</Border>
+		</Grid>
+	</ControlTemplate>
 	<Style TargetType="{x:Type ctrls:Slider}">
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate TargetType="{x:Type ctrls:Slider}">
-					<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="15">
-						<Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="15">
-							<Border Background="{DynamicResource BackgroundBrush}" CornerRadius="15">
-								<Grid HorizontalAlignment="Left">
-									<Border x:Name="progressBar" CornerRadius="15"
-											Width="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}, Converter={StaticResource ValueToSliderWidthConverter}}"
-											Height="{TemplateBinding Height}" Background="{TemplateBinding ProgressBarColor}" ClipToBounds="True" HorizontalAlignment="Left" />
-									<Button Style="{StaticResource SliderButtonStyle}" Height="{TemplateBinding Height}"
-											HorizontalAlignment="Right"/>
-								</Grid>
-							</Border>
+					<Border x:Name="SliderBackground" Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="15">
+						<Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="15"
+								Background="{DynamicResource BackgroundBrush}">
+							<Grid HorizontalAlignment="Left">
+								<Border x:Name="SliderBar" CornerRadius="15"
+										Height="{TemplateBinding Height}" Background="{TemplateBinding ProgressBarColor}" ClipToBounds="True" HorizontalAlignment="Left" Margin="0,0,5,0">
+									<Border.Width>
+										<MultiBinding Converter="{StaticResource ValueToSliderWidthConverter}">
+											<Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="Width" Mode="TwoWay"></Binding>
+											<Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="Value" Mode="TwoWay"></Binding>
+											<Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="MaxValue" Mode="TwoWay"></Binding>
+											<Binding RelativeSource="{RelativeSource Mode=TemplatedParent}" Path="MinValue" Mode="TwoWay"></Binding>
+										</MultiBinding>
+									</Border.Width>
+								</Border>
+								<Button x:Name="SliderButton" Width="{TemplateBinding Height}" Height="{TemplateBinding Height}" HorizontalAlignment="Right" />
+							</Grid>
 						</Border>
 					</Border>
 				</ControlTemplate>
