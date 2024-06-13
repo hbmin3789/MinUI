@@ -1,4 +1,5 @@
-﻿using MinUI.Core.Enummerables;
+﻿using MinUI.Core.Controls;
+using MinUI.Core.Enummerables;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ using System.Windows.Media;
 namespace MinUI.Core;
 
 [TemplatePart(Name = ProgressBarContainerPartName, Type = typeof(UIElement))]
-public class ProgressBar : ContentControl
+public class ProgressBar : NeumorphBase
 {
     public const string ProgressBarContainerPartName = "PART_ProgressBarContainer";
     protected FrameworkElement? _progressBarContainer;

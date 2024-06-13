@@ -13,13 +13,6 @@
 			Height="30" Cursor="Hand">asdasdas</min:Button>
 		<min:SwitchButton Margin="10" Width="80" Height="30"></min:SwitchButton>
 		<min:ProgressBar Width="150" Height="20" Value="100"/>
-		<Border Background="LightGray" BorderBrush="DarkGray" BorderThickness="1" ClipToBounds="True"
-				Width="100" Height="30">
-			<Border Background="Transparent" BorderBrush="Black" BorderThickness="0 2 2 0" Margin="-2" CornerRadius="15">
-				<Border.Effect>
-					<BlurEffect  Radius="10"/>
-				</Border.Effect>
-			</Border>
-		</Border>
+		<min:TextBox Width="150" Height="30"/>
 	</StackPanel>
 </Window>

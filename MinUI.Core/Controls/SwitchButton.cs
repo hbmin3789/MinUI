@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MinUI.Core.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ using System.Windows.Input;
 namespace MinUI.Core;
 
 [TemplatePart(Name = ButtonContainerPartName, Type = typeof(UIElement))]
-public class SwitchButton : ContentControl
+public class SwitchButton : NeumorphBase
 {
     public const string ButtonContainerPartName = "PART_ButtonContainer";
     public const string SwitchButtonPartName = "PART_SwitchButton";

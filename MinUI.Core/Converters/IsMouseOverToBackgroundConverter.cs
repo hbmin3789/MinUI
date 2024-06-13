@@ -11,7 +11,7 @@ namespace MinUI.Core.Converters
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var brushName = (bool)value ? "ButtonMouseOverBrush" : "ButtonBackgroundBrush";
-            return Application.Current.Resources[brushName] ;
+            return Application.Current.Resources[brushName];
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

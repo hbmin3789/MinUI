@@ -7,12 +7,13 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using System.Windows.Media;
+using MinUI.Core.Controls;
 
 namespace MinUI.Core;
 
 
 [TemplatePart(Name = ButtonContainerPartName, Type = typeof(UIElement))]
-public class Button : ContentControl
+public class Button : NeumorphBase
 {
     public const string ButtonContainerPartName = "PART_ButtonContainer";
     protected FrameworkElement? _buttonContainer;
