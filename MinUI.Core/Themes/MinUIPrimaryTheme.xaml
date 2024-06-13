@@ -8,6 +8,9 @@
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/SwitchButton.Light.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/ProgressBar.Light.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/TextBox.Light.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/Slider.Light.xaml" />
+		
+		<!-- Effects -->
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Shadow.Light.xaml" />
 	</ResourceDictionary.MergedDictionaries>
 	
