@@ -1,16 +1,11 @@
-﻿using MinUI.Core.Enummerables;
+﻿using MinUI.Core.Controls.Animation;
+using MinUI.Core.Enummerables;
 using MinUI.Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
 
 namespace MinUI.Core;
 
-public class NeumorphBase : ContentControl, INeumorphBase
+public class NeumorphBase : AnimationBase, INeumorphBase
 {
     public static readonly DependencyProperty ReliefProperty = DependencyProperty.Register(
     nameof(Relief), typeof(ERelief), typeof(NeumorphBase), new FrameworkPropertyMetadata(ERelief.Embossed, FrameworkPropertyMetadataOptions.AffectsArrange));

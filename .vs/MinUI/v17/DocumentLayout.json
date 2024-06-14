@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\accordion.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\accordion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\accordion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\button.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\button.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\animations\\accordion.animation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\animations\\accordion.animation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\accordion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\accordion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\tabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\tabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\neumorphbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\neumorphbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,23 +69,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Button.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-14T07:09:28.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Generic.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Generic.xaml",
               "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Generic.xaml",
@@ -101,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Accordion.Animation.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Animations\\Accordion.Animation.xaml",
               "RelativeDocumentMoniker": "MinUI.Core\\Animations\\Accordion.Animation.xaml",
@@ -113,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Button.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Button.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Button.cs",
@@ -121,12 +105,11 @@
               "RelativeToolTip": "MinUI.Core\\Controls\\Button.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T06:51:01.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T06:51:01.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MinUI\\MainWindow.xaml",
@@ -150,32 +133,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MinUIPrimaryTheme.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\MinUIPrimaryTheme.xaml",
               "RelativeDocumentMoniker": "MinUI.Core\\Themes\\MinUIPrimaryTheme.xaml",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\MinUIPrimaryTheme.xaml",
               "RelativeToolTip": "MinUI.Core\\Themes\\MinUIPrimaryTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-13T09:08:12.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T09:08:12.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Accordion.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Accordion.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Accordion.cs",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Accordion.cs",
               "RelativeToolTip": "MinUI.Core\\Controls\\Accordion.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwCkAAAAhAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAQwFkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T05:20:34.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Slider.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Slider.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Slider.cs",
@@ -187,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\hbmin\\AppData\\Local\\Temp\\.vsdbgsrc\\a09f6dd3e181386f420eac770aa74136bb10fec80e59a72c1c80cadae42164d3\\XamlReader.cs",
               "ToolTip": "C:\\Users\\hbmin\\AppData\\Local\\Temp\\.vsdbgsrc\\a09f6dd3e181386f420eac770aa74136bb10fec80e59a72c1c80cadae42164d3\\XamlReader.cs [\uC77D\uAE30 \uC804\uC6A9]",
@@ -198,7 +180,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
+              "Title": "Button.Dark.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
+              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
+              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-14T07:09:28.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ValueToProgressHeightConverter.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Converters\\ValueToProgressHeightConverter.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Converters\\ValueToProgressHeightConverter.cs",
@@ -218,20 +211,7 @@
               "RelativeToolTip": "MinUI.Core\\Controls\\TabControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T05:17:46.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NeumorphBase.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\NeumorphBase.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\NeumorphBase.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\NeumorphBase.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\NeumorphBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:10:23.738Z"
+              "WhenOpened": "2024-06-14T05:17:46.448Z"
             },
             {
               "$type": "Document",
@@ -247,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "IsMouseDownToSliderButtonTemplateConverter.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Converters\\IsMouseDownToSliderButtonTemplateConverter.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Converters\\IsMouseDownToSliderButtonTemplateConverter.cs",
@@ -259,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ValueToSliderWidthConverter.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Converters\\ValueToSliderWidthConverter.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Converters\\ValueToSliderWidthConverter.cs",

@@ -16,6 +16,8 @@ public class Accordion : NeumorphBase
     public const string ContentContainerPartName = "PART_ContentContainer";
     protected FrameworkElement? _headerContainer;
     protected FrameworkElement? _contentContainer;
+    private readonly string ExpandAnimationStateName = "ExpandAccordion";
+    private readonly string CollapseAnimationStateName = "CollapseAccordion";
 
     #region Dependency Properties
     public static readonly DependencyProperty IsExpandedProperty = DependencyProperty.Register(
@@ -68,13 +70,22 @@ public class Accordion : NeumorphBase
     public override void OnApplyTemplate()
     {
         base.OnApplyTemplate();
+        var a = Content;
         _headerContainer = GetTemplateChild(HeaderContainerPartName) as FrameworkElement;
         _contentContainer = GetTemplateChild(ContentContainerPartName) as FrameworkElement;
         if (_contentContainer != null)
         {
             _contentContainer.Loaded += OnContentLoaded;
-            _headerContainer.MouseUp += OnHeaderMouseUp;
+            MouseUp += OnHeaderMouseUp;
         }
+        HeaderClick += ToggleContent;
+    }
+
+    private void ToggleContent(object sender, RoutedEventArgs e)
+    {
+        var animation = IsExpanded ? CollapseAnimationStateName : ExpandAnimationStateName;
+        IsExpanded = !IsExpanded;
+        VisualStateManager.GoToState(this, animation, true);
     }
 
     private void OnHeaderMouseUp(object sender, MouseButtonEventArgs e)
