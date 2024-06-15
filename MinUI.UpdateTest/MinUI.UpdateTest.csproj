@@ -10,11 +10,14 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="View\Controls\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Prism.Core" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MinUI.Core\MinUI.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MinUI.UpdateTest.View.Pages
+namespace MinUI.UpdateTest.View.Controls
 {
     /// <summary>
-    /// CompletePage.xaml에 대한 상호 작용 논리
+    /// DownloadControl.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class CompletePage : Page
+    public partial class DownloadControl : UserControl
     {
-        public CompletePage()
+        public DownloadControl()
         {
             InitializeComponent();
         }

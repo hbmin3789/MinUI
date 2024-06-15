@@ -21,12 +21,11 @@ namespace MinUI
         public MainWindow()
         {
             InitializeComponent();
-            ThemeSelector.ToggleTheme();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            ThemeSelector.ToggleTheme();
         }
     }
 }

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="MinUI.UpdateTest.View.Controls.MainControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:ui="clr-namespace:MinUI.Core;assembly=MinUI.Core" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MinUI.UpdateTest.View.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+			 DataContext="{Binding CurrentViewModel,Source={StaticResource ViewSelector}}">
+	<Grid Background="{DynamicResource BackgroundBrush}">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="2*" />
+		</Grid.ColumnDefinitions>
+		<!-- Image -->
+		<Grid Grid.Column="0">
+			<Grid Background="#b56bfa"/>
+		</Grid>
+		<!-- Content -->
+		<Grid Grid.Column="1">
+			<Grid VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0">
+				<TextBlock FontSize="24" FontWeight="Bold" 
+						   Text="{Binding Version,StringFormat=Update Test Version{0}}"/>
+			</Grid>
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10">
+				<ui:Button Width="80" Height="30" Command="{Binding NextCommand}">Next</ui:Button>
+				
+			</StackPanel>
+		</Grid>
+	</Grid>
+</UserControl>

@@ -1,14 +1,14 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 					xmlns:vm="clr-namespace:MinUI.UpdateTest.ViewModel"
-					xmlns:pages="clr-namespace:MinUI.UpdateTest.View.Pages">
+					xmlns:ctrls="clr-namespace:MinUI.UpdateTest.View.Controls">
 	<DataTemplate DataType="{x:Type vm:MainViewModel}">
-		<pages:MainPage />
+		<ctrls:MainControl/>
 	</DataTemplate>
 	<DataTemplate DataType="{x:Type vm:DownloadViewModel}">
-		<pages:DownloadPage />
+		<ctrls:DownloadControl/>
 	</DataTemplate>
 	<DataTemplate DataType="{x:Type vm:CompleteViewModel}">
-		<pages:CompletePage />
+		<ctrls:CompleteControl/>
 	</DataTemplate>
 </ResourceDictionary>

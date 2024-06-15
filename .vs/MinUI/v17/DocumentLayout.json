@@ -3,116 +3,36 @@
   "WorkspaceRootPath": "B:\\Workspace\\MinUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\utils\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\utils\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\util\\viewselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\util\\viewselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\view\\controls\\maincontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\view\\controls\\maincontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\minui.updatetest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\minui.updatetest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\primarydarkbrush.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\primarydarkbrush.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\primarylightbrush.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\primarylightbrush.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\view\\viewselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\view\\viewselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\enummerables\\etheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\enummerables\\etheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\progressbar.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\progressbar.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\slider.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\slider.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\slider.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\slider.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\switchbutton.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\switchbutton.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\switchbutton.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\switchbutton.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\textbox.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\textbox.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\textbox.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\textbox.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\shadow.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\shadow.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\shadow.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\shadow.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\templates\\progressbar.vertical.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\templates\\progressbar.vertical.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\templates\\progressbar.horizontal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\templates\\progressbar.horizontal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\templates\\progressbar.doughnut.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\templates\\progressbar.doughnut.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\progressbar.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\progressbar.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\card.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\card.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\card.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\card.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\accordion.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\accordion.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\accordion.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\accordion.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\button.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\button.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\controls\\button.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\controls\\button.dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|b:\\workspace\\minui\\minui.updatetest\\view\\controls\\completecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{572BFBA4-103E-47A7-93B9-52B583B18E2D}|MinUI.UpdateTest\\MinUI.UpdateTest.csproj|solutionrelative:minui.updatetest\\view\\controls\\completecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,348 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThemeSelector.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Utils\\ThemeSelector.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Utils\\ThemeSelector.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Utils\\ThemeSelector.cs",
-              "RelativeToolTip": "MinUI.Core\\Utils\\ThemeSelector.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:29:12.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SwitchButton.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\SwitchButton.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\SwitchButton.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\SwitchButton.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\SwitchButton.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:35:56.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TextBox.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\TextBox.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\TextBox.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\TextBox.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\TextBox.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:35:48.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TextBox.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\TextBox.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\TextBox.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\TextBox.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\TextBox.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:35:39.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProgressBar.Vertical.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Templates\\ProgressBar.Vertical.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Templates\\ProgressBar.Vertical.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Templates\\ProgressBar.Vertical.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Templates\\ProgressBar.Vertical.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:58.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MinUI\\MainWindow.xaml.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MinUI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Title": "Button.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Button.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Button.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Button.cs",
+              "RelativeToolTip": "MinUI.Core\\Controls\\Button.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAYwH4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:28:50.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PrimaryLightBrush.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:32:56.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PrimaryDarkBrush.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\PrimaryDarkBrush.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\PrimaryDarkBrush.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\PrimaryDarkBrush.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\PrimaryDarkBrush.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:32:55.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MinUI.UpdateTest\\MainWindow.xaml.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MinUI.UpdateTest\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:38:39.779Z",
+              "WhenOpened": "2024-06-15T12:16:20.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MinUI.UpdateTest",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MinUI.UpdateTest.csproj",
-              "RelativeDocumentMoniker": "MinUI.UpdateTest\\MinUI.UpdateTest.csproj",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MinUI.UpdateTest.csproj",
-              "RelativeToolTip": "MinUI.UpdateTest\\MinUI.UpdateTest.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-15T06:40:33.059Z",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "MinUI.UpdateTest\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAvwBkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T12:01:24.848Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\App.xaml",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\App.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\App.xaml",
+              "RelativeToolTip": "MinUI.UpdateTest\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-15T10:52:02.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewSelector.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Util\\ViewSelector.cs",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\Util\\ViewSelector.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Util\\ViewSelector.cs",
+              "RelativeToolTip": "MinUI.UpdateTest\\Util\\ViewSelector.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T10:48:01.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\MainWindow.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MainWindow.xaml",
+              "RelativeToolTip": "MinUI.UpdateTest\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-15T10:47:27.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\App.xaml",
-              "RelativeDocumentMoniker": "MinUI\\App.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI\\App.xaml",
-              "RelativeToolTip": "MinUI\\App.xaml",
+              "Title": "MainControl.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\MainControl.xaml",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\MainControl.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\MainControl.xaml",
+              "RelativeToolTip": "MinUI.UpdateTest\\View\\Controls\\MainControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:46:29.174Z",
+              "WhenOpened": "2024-06-15T10:47:12.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SwitchButton.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\SwitchButton.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\SwitchButton.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\SwitchButton.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\SwitchButton.Dark.xaml",
+              "DocumentIndex": 6,
+              "Title": "ViewSelector.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\ViewSelector.xaml",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\ViewSelector.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\ViewSelector.xaml",
+              "RelativeToolTip": "MinUI.UpdateTest\\View\\ViewSelector.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:36:07.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Slider.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Slider.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Slider.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Slider.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Slider.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:36:21.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Slider.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Slider.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Slider.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Slider.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Slider.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:36:34.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProgressBar.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\ProgressBar.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\ProgressBar.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\ProgressBar.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\ProgressBar.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:36:47.218Z",
+              "WhenOpened": "2024-06-15T10:46:37.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ETheme.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Enummerables\\ETheme.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Enummerables\\ETheme.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Enummerables\\ETheme.cs",
-              "RelativeToolTip": "MinUI.Core\\Enummerables\\ETheme.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:37:09.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProgressBar.Horizontal.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Templates\\ProgressBar.Horizontal.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Templates\\ProgressBar.Horizontal.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Templates\\ProgressBar.Horizontal.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Templates\\ProgressBar.Horizontal.xaml",
+              "Title": "CompleteControl.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml",
+              "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml",
+              "RelativeToolTip": "MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:49.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Shadow.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Shadow.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Shadow.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Shadow.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Shadow.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:32:26.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Shadow.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Shadow.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Shadow.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Shadow.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Shadow.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:32:41.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProgressBar.Doughnut.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Templates\\ProgressBar.Doughnut.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Templates\\ProgressBar.Doughnut.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Templates\\ProgressBar.Doughnut.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Templates\\ProgressBar.Doughnut.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:46.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProgressBar.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\ProgressBar.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\ProgressBar.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\ProgressBar.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\ProgressBar.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:43.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Card.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Card.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Card.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Card.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Card.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:35.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Card.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Card.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Card.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Card.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Card.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:18.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Accordion.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Accordion.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Accordion.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Accordion.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Accordion.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:34:10.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Accordion.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Accordion.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Accordion.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Accordion.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Accordion.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:33:58.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Button.Light.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Light.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Button.Light.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Light.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Button.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:31:24.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Button.Dark.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Controls\\Button.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:31:17.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Generic.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Generic.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Generic.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Generic.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Generic.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:29:59.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T10:46:33.17Z"
             }
           ]
         }

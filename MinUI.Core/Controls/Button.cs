@@ -8,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using System.Windows.Media;
 using System.Runtime.CompilerServices;
+using System.Windows.Input;
 
 namespace MinUI.Core;
 
@@ -47,17 +48,30 @@ public class Button : NeumorphBase
     }
 
     public static readonly DependencyProperty IsMouseDownProperty = DependencyProperty.Register(
-        nameof(IsMouseDown), typeof(bool), typeof(Button), new FrameworkPropertyMetadata(false, FrameworkPropertyMetadataOptions.AffectsArrange,OnIsMouseDownChanged));
-
-    private static void OnIsMouseDownChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
-    {
-        var instance = (Button)d;
-    }
+        nameof(IsMouseDown), typeof(bool), typeof(Button), new FrameworkPropertyMetadata(false, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
 
     public bool IsMouseDown
     {
         get => (bool)GetValue(IsMouseDownProperty);
         set => SetValue(IsMouseDownProperty, value);
+    }
+
+    public static readonly DependencyProperty CommandProperty = DependencyProperty.Register(
+        nameof(Command), typeof(ICommand), typeof(Button), new FrameworkPropertyMetadata(default(ICommand), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+
+    public ICommand Command
+    {
+        get => (ICommand)GetValue(CommandProperty);
+        set => SetValue(CommandProperty, value);
+    }
+
+    public static readonly DependencyProperty CommandParameterProperty = DependencyProperty.Register(
+        nameof(CommandParameter), typeof(object), typeof(Button), new FrameworkPropertyMetadata(default(object), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+
+    public object CommandParameter
+    {
+        get => GetValue(CommandParameterProperty);
+        set => SetValue(CommandParameterProperty, value);
     }
 
     public static readonly RoutedEvent ButtonChangedEvent =
@@ -87,6 +101,10 @@ public class Button : NeumorphBase
     void RaiseClickEvent()
     {
         RaiseEvent(new(routedEvent: ClickEvent));
+        if (Command.CanExecute(CommandParameter))
+        {
+            Command.Execute(CommandParameter);
+        }
     }
 
 
@@ -101,15 +119,18 @@ public class Button : NeumorphBase
     {
         base.OnApplyTemplate();
         _buttonContainer = GetTemplateChild(ButtonContainerPartName) as FrameworkElement;
-        MouseUp += Button_MouseUp;
+        PreviewMouseUp += Button_MouseUp;
     }
-
-    private void Button_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+    private int _clicked = 0;
+    private void Button_MouseUp(object sender, MouseButtonEventArgs e)
     {
-        if (IsMouseDown)
+        if (IsMouseDown && _clicked < 1)
         {
             RaiseClickEvent();
+            _clicked++;
+            return;
         }
+        _clicked = 0;
     }
 
     private static void OnButtonChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)

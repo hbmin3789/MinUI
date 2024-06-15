@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MinUI.UpdateTest.View.Pages
+namespace MinUI.UpdateTest.View.Controls
 {
     /// <summary>
-    /// MainPage.xaml에 대한 상호 작용 논리
+    /// MainControl.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainPage : Page
+    public partial class MainControl : UserControl
     {
-        public MainPage()
+        public MainControl()
         {
             InitializeComponent();
         }
