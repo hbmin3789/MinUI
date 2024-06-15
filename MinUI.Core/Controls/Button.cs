@@ -74,6 +74,24 @@ public class Button : NeumorphBase
     }
     #endregion
 
+    #region RoutedEvents
+
+    public static readonly RoutedEvent ClickEvent = EventManager.RegisterRoutedEvent("Click", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(Button));
+
+    public event RoutedEventHandler Click
+    {
+        add { AddHandler(ClickEvent, value); }
+        remove { RemoveHandler(ClickEvent, value); }
+    }
+
+    void RaiseClickEvent()
+    {
+        RaiseEvent(new(routedEvent: ClickEvent));
+    }
+
+
+    #endregion
+
     static Button()
     {
         DefaultStyleKeyProperty.OverrideMetadata(typeof(Button), new FrameworkPropertyMetadata(typeof(Button)));
@@ -83,6 +101,15 @@ public class Button : NeumorphBase
     {
         base.OnApplyTemplate();
         _buttonContainer = GetTemplateChild(ButtonContainerPartName) as FrameworkElement;
+        MouseUp += Button_MouseUp;
+    }
+
+    private void Button_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+    {
+        if (IsMouseDown)
+        {
+            RaiseClickEvent();
+        }
     }
 
     private static void OnButtonChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)

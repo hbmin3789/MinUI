@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MinUI.Core.Enummerables;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +11,68 @@ namespace MinUI.Core.Utils
     public class ThemeSelector : ResourceDictionary
     {
         private static ResourceDictionary _genericTheme;
+        private static ETheme _currentTheme;
         public static void InitTheme()
         {
-            var dict = Application.Current.Resources.MergedDictionaries;
-            _genericTheme = GetResourceDictionary("Generic.xaml");
-            _genericTheme.MergedDictionaries.Clear();
-            _genericTheme.MergedDictionaries.Add(GetResourceDictionary("MinUIPrimaryTheme.xaml"));
-            dict.Add(_genericTheme);
+            SetThemeLight();
+        }
+
+        public static void ToggleTheme()
+        {
+            if (_currentTheme == ETheme.Light)
+            {
+                SetThemeDark();
+                _currentTheme = ETheme.Dark;
+            }
+            else
+            {
+                SetThemeLight();
+                _currentTheme = ETheme.Light;
+            }
+        }
+
+        public static void SetThemeLight()
+        {
+            if (_genericTheme == null)
+            {
+                var dict = Application.Current.Resources.MergedDictionaries;
+                _genericTheme = GetResourceDictionary("Generic.xaml");
+                _genericTheme.MergedDictionaries.Clear();
+                _genericTheme.MergedDictionaries.Add(GetLightTheme());
+                dict.Add(_genericTheme);
+            }
+            else 
+            {
+                var dict = Application.Current.Resources.MergedDictionaries;
+                if (dict.Remove(_genericTheme))
+                {
+                    _genericTheme.MergedDictionaries.Clear();
+                    _genericTheme.MergedDictionaries.Add(GetLightTheme());
+                    dict.Add(_genericTheme);
+                }
+            }
+            
+        }
+        public static void SetThemeDark()
+        {
+            if (_genericTheme == null)
+            {
+                var dict = Application.Current.Resources.MergedDictionaries;
+                _genericTheme = GetResourceDictionary("Generic.xaml");
+                _genericTheme.MergedDictionaries.Clear();
+                _genericTheme.MergedDictionaries.Add(GetDarkTheme());
+                dict.Add(_genericTheme);
+            }
+            else
+            {
+                var dict = Application.Current.Resources.MergedDictionaries;
+                if (dict.Remove(_genericTheme))
+                {
+                    _genericTheme.MergedDictionaries.Clear();
+                    _genericTheme.MergedDictionaries.Add(GetDarkTheme());
+                    dict.Add(_genericTheme);
+                }
+            }
         }
 
         public static ResourceDictionary GetResourceDictionary(string xamlName)

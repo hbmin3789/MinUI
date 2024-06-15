@@ -1,6 +1,8 @@
-﻿using MinUI.Core.Enummerables;
-using MinUI.Core.Utils;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -11,22 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MinUI
+namespace MinUI.UpdateTest.View.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// CompletePage.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CompletePage : Page
     {
-        public MainWindow()
+        public CompletePage()
         {
             InitializeComponent();
-            ThemeSelector.ToggleTheme();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

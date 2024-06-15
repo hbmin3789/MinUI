@@ -12,9 +12,9 @@
 							  Cursor="Hand">
 							<!-- Background -->
 							<Border CornerRadius="15"
-									Effect="{DynamicResource LightThemeDarkShadowEffect}">
+									Effect="{DynamicResource DarkShadowEffect}">
 								<Border CornerRadius="15"
-										Effect="{DynamicResource LightThemeLightShadowEffect}"
+										Effect="{DynamicResource LightShadowEffect}"
 										Background="{DynamicResource SwitchButtonBackgroundBrush}" />
 							</Border>
 							<!-- Button -->
@@ -24,9 +24,9 @@
 								  Height="{TemplateBinding Height}"
 								  Width="{TemplateBinding Height}">
 								<Border CornerRadius="100"
-										Effect="{DynamicResource LightThemeDarkShadowEffect}">
+										Effect="{DynamicResource DarkShadowEffect}">
 									<Border CornerRadius="100"
-											Effect="{DynamicResource LightThemeLightShadowEffect}"
+											Effect="{DynamicResource LightShadowEffect}"
 											Height="{TemplateBinding Height, Converter={StaticResource SetMarginConverter}}"
 											Width="{TemplateBinding Height, Converter={StaticResource SetMarginConverter}}"
 											Background="{DynamicResource SwitchButtonForegroundBrush}"/>

@@ -10,12 +10,12 @@
 					Width="{TemplateBinding Width}"
 					Height="{TemplateBinding Height}"
 					Background="{DynamicResource BackgroundBrush}"
-					Effect="{DynamicResource LightThemeDarkShadowEffect}" />
+					Effect="{DynamicResource DarkShadowEffect}" />
 			<Border CornerRadius="10"
 					Width="{TemplateBinding Width}"
 					Height="{TemplateBinding Height}"
 					Background="{DynamicResource BackgroundBrush}"
-					Effect="{DynamicResource LightThemeLightShadowEffect}" />
+					Effect="{DynamicResource LightShadowEffect}" />
 			<!-- Bar -->
 			<Border x:Name="progressBar"
 					CornerRadius="10"

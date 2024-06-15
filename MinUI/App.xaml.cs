@@ -13,7 +13,7 @@ namespace MinUI
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            ThemeSelector.InitTheme();            
+            ThemeSelector.InitTheme();
         }
     }
 

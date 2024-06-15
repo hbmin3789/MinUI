@@ -4,10 +4,10 @@
 					xmlns:converters="clr-namespace:MinUI.Core.Converters">
 	<converters:IsMouseOverToBackgroundConverter x:Key="IsMouseOverToBackgroundConverter"/>
 	<ControlTemplate x:Key="CommonButtonControlTemplate" TargetType="{x:Type ctrls:Button}">
-		<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="5">
+		<Border Effect="{DynamicResource LightShadowEffect}" CornerRadius="5">
 			<Border x:Name="ContainerBackground" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
 					Background="{Binding RelativeSource={RelativeSource Mode=TemplatedParent},Path=IsMouseOver,Converter={StaticResource IsMouseOverToBackgroundConverter}}"
-					Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="5">
+					Effect="{DynamicResource DarkShadowEffect}" CornerRadius="5">
 				<ContentPresenter x:Name="PART_ButtonContainer" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
 						VerticalAlignment="{TemplateBinding VerticalContentAlignment}" ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"
 						ContentTemplateSelector="{TemplateBinding ContentTemplateSelector}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Content="{TemplateBinding Content}"

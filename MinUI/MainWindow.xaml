@@ -10,7 +10,7 @@
 	<StackPanel Background="{DynamicResource BackgroundBrush}">
 		<min:Button
 			Width="100"
-			Height="30" Cursor="Hand">asdasdas</min:Button>
+			Height="30" Cursor="Hand" Click="Button_Click">Switch Theme</min:Button>
 		<min:SwitchButton Margin="10" Width="80" Height="30"></min:SwitchButton>
 		<min:ProgressBar Width="150" Height="20" Value="100"/>
 		<min:TextBox Margin="0,10,0,0" Width="150" Height="30"/>

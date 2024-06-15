@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Page Update="Themes\Controls\Accordion.Dark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Shadow.Light.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
