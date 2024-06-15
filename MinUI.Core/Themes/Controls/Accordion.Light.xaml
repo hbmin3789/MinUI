@@ -11,38 +11,35 @@
 								<VisualState x:Name="ExpandAccordion">
 									<Storyboard>
 										<DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)" Storyboard.TargetName="PART_ContentContainer" From="0" To="1"
-												Duration="0:0:0:0.4" />
+												Duration="0:0:0:0.2" />
 									</Storyboard>
 								</VisualState>
 								<VisualState x:Name="CollapseAccordion">
 									<Storyboard>
 										<DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)" Storyboard.TargetName="PART_ContentContainer" From="1" To="0"
-												Duration="0:0:0:0.4" />
+												Duration="0:0:0:0.2" />
 									</Storyboard>
 								</VisualState>
 							</VisualStateGroup>
 						</VisualStateManager.VisualStateGroups>
-						<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="5">
-							<Border Background="{DynamicResource BackgroundBrush}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="5">
-								<StackPanel>
-									<!-- Header -->
-									<Grid x:Name="PART_HeaderContainer">
-										<Grid.ColumnDefinitions>
-											<ColumnDefinition Width="*" />
-											<ColumnDefinition Width="30" />
-										</Grid.ColumnDefinitions>
-										<ContentPresenter />
-										<!-- Expand Icon -->
-										
-									</Grid>
+						
+						<Border Effect="{DynamicResource LightThemeLightShadowEffect}" CornerRadius="5" Height="auto" Cursor="">
+							<Border Background="{DynamicResource BackgroundBrush}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="5" Cursor="">
+								<Grid x:Name="PART_HeaderContainer" Cursor="Hand">
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="*" />
+										<ColumnDefinition Width="30" />
+									</Grid.ColumnDefinitions>
+									<ContentPresenter />
+									<!-- Expand Icon -->
 									<!-- Content -->
-									<Grid x:Name="PART_ContentContainer">
+									<Grid x:Name="PART_ContentContainer" Grid.Row="1" VerticalAlignment="Top">
 										<Grid.RenderTransform>
-											<ScaleTransform ScaleX="1" ScaleY="1"/>
+											<ScaleTransform ScaleY="0" />
 										</Grid.RenderTransform>
-										<ContentPresenter Content="{TemplateBinding Content}" />
+										<ContentPresenter x:Name="ContentPresenter" Content="{TemplateBinding Content}" />
 									</Grid>
-								</StackPanel>
+								</Grid>
 							</Border>
 						</Border>
 					</Grid>

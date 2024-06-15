@@ -30,6 +30,26 @@
 						<Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Effect="{DynamicResource LightThemeDarkShadowEffect}" CornerRadius="15"
 								Background="{DynamicResource BackgroundBrush}">
 							<Grid HorizontalAlignment="Left">
+								<VisualStateManager.VisualStateGroups>
+									<VisualStateGroup x:Name="AnimationGroup">
+										<VisualState x:Name="ZoomButton">
+											<Storyboard>
+												<DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)" Storyboard.TargetName="SliderButton" From="1" 
+																 To="1.2" Duration="0:0:0:0.2" />
+												<DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleX)" Storyboard.TargetName="SliderButton" From="1" 
+																 To="1.2" Duration="0:0:0:0.2" />
+											</Storyboard>
+										</VisualState>
+										<VisualState x:Name="ZoomOutButton">
+											<Storyboard>
+												<DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)" Storyboard.TargetName="SliderButton" From="1.2" 
+																 To="1" Duration="0:0:0:0.2" />
+												<DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleX)" Storyboard.TargetName="SliderButton" From="1.2" 
+																 To="1" Duration="0:0:0:0.2" />
+											</Storyboard>
+										</VisualState>
+									</VisualStateGroup>
+								</VisualStateManager.VisualStateGroups>
 								<Border x:Name="SliderBar" CornerRadius="15"
 										Height="{TemplateBinding Height}" Background="{TemplateBinding ProgressBarColor}" ClipToBounds="True" HorizontalAlignment="Left" Margin="0,0,5,0">
 									<Border.Width>
@@ -41,7 +61,12 @@
 										</MultiBinding>
 									</Border.Width>
 								</Border>
-								<Button x:Name="SliderButton" Width="{TemplateBinding Height}" Height="{TemplateBinding Height}" HorizontalAlignment="Right" />
+								<Grid x:Name="SliderButton2">
+									<Grid.RenderTransform>
+										<ScaleTransform ScaleX="1" ScaleY="1"/>
+									</Grid.RenderTransform>
+									<Button x:Name="SliderButton" Width="{TemplateBinding Height}" Height="{TemplateBinding Height}" HorizontalAlignment="Right" />
+								</Grid>
 							</Grid>
 						</Border>
 					</Border>

@@ -16,6 +16,7 @@ public class Accordion : NeumorphBase
     public const string ContentContainerPartName = "PART_ContentContainer";
     protected FrameworkElement? _headerContainer;
     protected FrameworkElement? _contentContainer;
+
     private readonly string ExpandAnimationStateName = "ExpandAccordion";
     private readonly string CollapseAnimationStateName = "CollapseAccordion";
 
@@ -100,4 +101,18 @@ public class Accordion : NeumorphBase
     {
         ContentRenderSize = _contentContainer.RenderSize;
     }
+
+    #region Animations
+
+    private void ExpandContentAnimation()
+    {
+
+    }
+
+    private void CollapseContentAnimation()
+    {
+
+    }
+
+    #endregion
 }

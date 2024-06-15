@@ -15,6 +15,8 @@ public class Slider : ContentControl
     private readonly string _sliderButtonName = "SliderButton";
     private readonly string _sliderBarName = "SliderBar";
     private readonly string _sliderBackgroundName = "SliderBackground";
+    private readonly string _zoomAnimationStateName = "ZoomButton";
+    private readonly string _zoomOutAnimationStateName = "ZoomOutButton";
     private System.Windows.Controls.Button _sliderButton;
     private Border _sliderBar;
     private Border _sliderBackground;
@@ -67,7 +69,13 @@ public class Slider : ContentControl
     }
 
     public static readonly DependencyProperty IsMouseDownProperty = DependencyProperty.Register(
-    nameof(IsMouseDown), typeof(bool), typeof(Slider), new FrameworkPropertyMetadata(false, FrameworkPropertyMetadataOptions.AffectsArrange));
+    nameof(IsMouseDown), typeof(bool), typeof(Slider), new FrameworkPropertyMetadata(false, FrameworkPropertyMetadataOptions.AffectsArrange,OnIsMouseDownChanged));
+
+    private static void OnIsMouseDownChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    {
+        var instance = (Slider)d;
+        instance.MouseDownAnimation();
+    }
 
     public bool IsMouseDown
     {
@@ -123,4 +131,12 @@ public class Slider : ContentControl
         var position = e.GetPosition(this);
         Value = ((MaxValue - MinValue) / 100) * (position.X / (Width / 100));
     }
+
+    #region Animation
+    private void MouseDownAnimation()
+    {
+        var animation = IsMouseDown ? _zoomAnimationStateName : _zoomOutAnimationStateName;
+        VisualStateManager.GoToState(this, animation, true);
+    }
+    #endregion
 }
