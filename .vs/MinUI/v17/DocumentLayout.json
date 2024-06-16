@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "B:\\Workspace\\MinUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|b:\\workspace\\minui\\minui.downloadtest\\service\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|solutionrelative:minui.downloadtest\\service\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|b:\\workspace\\minui\\minui.downloadtest\\viewmodel\\downloadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|solutionrelative:minui.downloadtest\\viewmodel\\downloadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|b:\\workspace\\minui\\minui.downloadtest\\service\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|solutionrelative:minui.downloadtest\\service\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|b:\\workspace\\minui\\minui.downloadtest\\service\\downloadlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,11 +138,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MinUI\\MainWindow.xaml",
@@ -154,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DownloadViewModel.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\ViewModel\\DownloadViewModel.cs",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\ViewModel\\DownloadViewModel.cs",
@@ -180,26 +180,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "NetworkManager.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\Service\\NetworkManager.cs",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\Service\\NetworkManager.cs",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\Service\\NetworkManager.cs",
               "RelativeToolTip": "MinUI.DownloadTest\\Service\\NetworkManager.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAwwCwAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAArwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T12:03:49.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProgressBar.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\ProgressBar.cs",
               "RelativeDocumentMoniker": "MinUI.Core\\Controls\\ProgressBar.cs",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\ProgressBar.cs",
               "RelativeToolTip": "MinUI.Core\\Controls\\ProgressBar.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAhAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwGIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T09:26:41.741Z",
               "EditorCaption": ""
