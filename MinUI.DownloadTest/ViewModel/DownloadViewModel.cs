@@ -113,11 +113,11 @@ namespace MinUI.DownloadTest.ViewModel
         private async void OnInstall()
         {
             InstallBtnVisible = false;
-            _logger.Log("Download Start At : " + FilePath);
+            _logger.Log("download start at : " + FilePath);
             try
             {
                 var version = await _networkManager.GetNewVersion();
-                _logger.Log($"New Version : {version.Version}");
+                _logger.Log($"new version : {version.Version}");
                 DownloadProgressValue += 10;
                 await _networkManager.DownloadNewVersion(_logger, FilePath);
                 _logger.Log("download complete");

@@ -36,7 +36,6 @@ namespace MinUI.DownloadTest.Service
         {
             Uri serverUri = new Uri("ws://localhost:5002");
             await _webSocket.ConnectAsync(serverUri, CancellationToken.None);
-            
         }
 
         private ArraySegment<byte> StringToByte(string str)

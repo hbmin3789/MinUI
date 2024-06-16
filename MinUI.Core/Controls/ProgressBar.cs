@@ -23,6 +23,11 @@ public class ProgressBar : NeumorphBase
         base.OnApplyTemplate();
         _progressBarContainer = GetTemplateChild(ProgressBarContainerPartName) as FrameworkElement;
         _progressBar = GetTemplateChild(progressBarPartName) as FrameworkElement;
+    }
+
+    protected override void OnRender(DrawingContext drawingContext)
+    {
+        base.OnRender(drawingContext);
         UpdateProgressBarWidth();
     }
 
@@ -91,6 +96,10 @@ public class ProgressBar : NeumorphBase
             else if (newWidth <= 0) 
             {
                 _progressBar.Width = 0;
+            }
+            else
+            {
+                _progressBar.Width = newWidth;
             }
         }
     }
