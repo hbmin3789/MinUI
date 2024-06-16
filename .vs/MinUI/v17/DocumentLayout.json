@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "B:\\Workspace\\MinUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|b:\\workspace\\minui\\minui.downloadtest\\view\\controls\\maincontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F8CA0671-DC3B-4341-8650-970D4A41E9A8}|MinUI.DownloadTest\\MinUI.DownloadTest.csproj|solutionrelative:minui.downloadtest\\view\\controls\\maincontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -123,6 +127,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProgressBar.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\ProgressBar.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\ProgressBar.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\ProgressBar.cs",
+              "RelativeToolTip": "MinUI.Core\\Controls\\ProgressBar.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAA8wFwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T09:26:41.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainControl.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\View\\Controls\\MainControl.xaml",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\View\\Controls\\MainControl.xaml",
@@ -134,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DownloadControl.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\View\\Controls\\DownloadControl.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\View\\Controls\\DownloadControl.xaml.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainControl.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\View\\Controls\\MainControl.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\View\\Controls\\MainControl.xaml.cs",
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CompleteControl.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\View\\Controls\\CompleteControl.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\View\\Controls\\CompleteControl.xaml.cs",
@@ -173,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CompleteControl.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\View\\Controls\\CompleteControl.xaml",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\View\\Controls\\CompleteControl.xaml",
@@ -185,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ViewSelector.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\View\\ViewSelector.xaml",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\View\\ViewSelector.xaml",
@@ -197,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.DownloadTest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MinUI.DownloadTest\\MainWindow.xaml",
@@ -209,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CompleteControl.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml.cs",
@@ -220,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DownloadControl.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\DownloadControl.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\DownloadControl.xaml.cs",
@@ -232,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\MainWindow.xaml.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\AssemblyInfo.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\App.xaml.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\App.xaml.cs",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ViewSelector.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\ViewSelector.xaml",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\ViewSelector.xaml",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ViewSelector.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Util\\ViewSelector.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\Util\\ViewSelector.cs",
@@ -291,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\App.xaml",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\App.xaml",
@@ -302,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CompleteControl.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\CompleteControl.xaml",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DownloadControl.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\DownloadControl.xaml",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\DownloadControl.xaml",
@@ -324,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\ViewModel\\MainViewModel.cs",
@@ -336,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DownloadViewModel.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\ViewModel\\DownloadViewModel.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\ViewModel\\DownloadViewModel.cs",
@@ -348,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CompleteViewModel.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\ViewModel\\CompleteViewModel.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\ViewModel\\CompleteViewModel.cs",
@@ -360,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BooleanToVisibilityConverter.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Converter\\BooleanToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\Converter\\BooleanToVisibilityConverter.cs",
@@ -372,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "NetworkManager.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Service\\NetworkManager.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\Service\\NetworkManager.cs",
@@ -384,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DownloadLogger.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Service\\DownloadLogger.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\Service\\DownloadLogger.cs",
@@ -396,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\MainWindow.xaml",
@@ -407,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "VersionResponse.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Model\\Response\\VersionResponse.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\Model\\Response\\VersionResponse.cs",
@@ -419,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DownloadResponse.cs",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\Model\\Response\\DownloadResponse.cs",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\Model\\Response\\DownloadResponse.cs",
@@ -431,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MainControl.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.UpdateTest\\View\\Controls\\MainControl.xaml",
               "RelativeDocumentMoniker": "MinUI.UpdateTest\\View\\Controls\\MainControl.xaml",

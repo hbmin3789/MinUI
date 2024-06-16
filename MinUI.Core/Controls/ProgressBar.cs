@@ -83,8 +83,15 @@ public class ProgressBar : NeumorphBase
     {
         if (_progressBar != null)
         {
-            var percent = Value / ActualWidth;
-            _progressBar.Width = ActualWidth * percent;
+            var newWidth = ActualWidth / 100 * Value;
+            if (newWidth >= ActualWidth)
+            {
+                _progressBar.Width = ActualWidth;
+            }
+            else if (newWidth <= 0) 
+            {
+                _progressBar.Width = 0;
+            }
         }
     }
 
