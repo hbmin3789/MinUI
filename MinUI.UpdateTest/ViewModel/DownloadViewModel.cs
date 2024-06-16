@@ -119,6 +119,10 @@ namespace MinUI.UpdateTest.ViewModel
                 var version = await _networkManager.GetNewVersion();
                 _logger.Log($"New Version : {version.Version}");
                 DownloadProgressValue += 10;
+                await _networkManager.DownloadNewVersion(_logger);
+                _logger.Log("download complete");
+                DownloadProgressValue += 90;
+                NextBtnVisible = true;
             }
             catch (Exception ex) 
             {

@@ -4,6 +4,8 @@ import setController from "./setup/setController";
 import bodyParser from "body-parser";
 import fs from "fs";
 import https from "https";
+import initWebSocketServer from "./websocket";
+import setWebSocket from "./setup/setWebsocket";
 
 const app = express();
 const port = 5001;
@@ -28,6 +30,7 @@ setController(app);
 //로컬이면 http로 돌려도됨ㅇㅇ
 if (process.env.ENV === "local" || true) {
   app.listen(port, () => console.log(`http server opened`));
+  setWebSocket();
 } else {
   const options = {
     key: fs.readFileSync("/etc/letsencrypt/live/hogam.net/privkey.pem"),

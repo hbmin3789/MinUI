@@ -61,7 +61,9 @@ namespace MinUI.UpdateTest.Util
                     NextCommand = new DelegateCommand(OnClickNext),
                     PrevCommand = new DelegateCommand(OnClickPrev),
                 }, 
-                new CompleteViewModel()
+                new CompleteViewModel(){
+
+                }
             ];
             ViewIndex = 0;
             CurrentViewModel = ViewModels[ViewIndex];

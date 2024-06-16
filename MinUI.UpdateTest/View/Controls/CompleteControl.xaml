@@ -5,8 +5,26 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MinUI.UpdateTest.View.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+             d:DesignHeight="450" d:DesignWidth="800" 
+			 DataContext="{Binding CurrentViewModel,Source={StaticResource ViewSelector}}"
+			 xmlns:ui="clr-namespace:MinUI.Core;assembly=MinUI.Core">
+	<Grid Background="{DynamicResource BackgroundBrush}">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="2*" />
+		</Grid.ColumnDefinitions>
+		<!-- Image -->
+		<Grid Grid.Column="0">
+			<Grid Background="#b56bfa" />
+		</Grid>
+		<!-- Content -->
+		<Grid Grid.Column="1">
+			<Grid VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0">
+				<TextBlock FontSize="24" FontWeight="Bold" Text="Update Complete" />
+			</Grid>
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10">
+				<ui:Button Width="80" Height="30" Command="{Binding CloseCommand}">Close</ui:Button>
+			</StackPanel>
+		</Grid>
+	</Grid>
 </UserControl>
