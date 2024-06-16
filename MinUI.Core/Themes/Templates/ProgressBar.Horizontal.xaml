@@ -19,7 +19,6 @@
 			<!-- Bar -->
 			<Border x:Name="progressBar"
 					CornerRadius="10"
-					Width="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}, Converter={StaticResource ValueToProgressWidthConverter}}"
 					Height="{TemplateBinding Height}"
 					Background="{TemplateBinding ProgressBarColor}"
 					ClipToBounds="True"

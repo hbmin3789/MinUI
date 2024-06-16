@@ -15,6 +15,7 @@ namespace MinUI.UpdateTest.ViewModel
     public class DownloadViewModel : BindableBase
     {
         private DownloadLogger _logger;
+        private NetworkManager _networkManager;
 
         #region Variables
 
@@ -89,6 +90,7 @@ namespace MinUI.UpdateTest.ViewModel
         private void InitVariables()
         {
             _logger = new DownloadLogger();
+            _networkManager = new NetworkManager();
         }
 
         private void InitCommands()
@@ -108,10 +110,20 @@ namespace MinUI.UpdateTest.ViewModel
 
         }
 
-        private void OnInstall()
+        private async void OnInstall()
         {
             InstallBtnVisible = false;
             _logger.Log("Download Start At : " + FilePath);
+            try
+            {
+                var version = await _networkManager.GetNewVersion();
+                _logger.Log($"New Version : {version.Version}");
+                DownloadProgressValue += 10;
+            }
+            catch (Exception ex) 
+            {
+                _logger.Log(ex.Message);
+            }
         }
     }
 }
