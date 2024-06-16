@@ -10,7 +10,7 @@ MinUI는 Neumorphism 디자인을 WPF에 적용하였습니다.
 
 프로젝트 구성은 다음과 같습니다.
 
-- **MinUI.Core**: Neumorphism 디자인을 적용한 WPF 컨트롤 모음
+- **MinUI.Core**: 컨트롤 모음
 - **MinUI.DownloadTest**: installer
 - **MinUI.UpdateServer**: installer server
 
