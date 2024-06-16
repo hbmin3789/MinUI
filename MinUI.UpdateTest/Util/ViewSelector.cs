@@ -54,7 +54,15 @@ namespace MinUI.UpdateTest.Util
 
         private void InitVariables()
         {
-            ViewModels = [new MainViewModel() { NextCommand = new DelegateCommand(OnClickNext)}, new DownloadViewModel(), new CompleteViewModel()];
+            ViewModels = [
+                new MainViewModel() { NextCommand = new DelegateCommand(OnClickNext)}, 
+                new DownloadViewModel() 
+                {
+                    NextCommand = new DelegateCommand(OnClickNext),
+                    PrevCommand = new DelegateCommand(OnClickPrev),
+                }, 
+                new CompleteViewModel()
+            ];
             ViewIndex = 0;
             CurrentViewModel = ViewModels[ViewIndex];
         }

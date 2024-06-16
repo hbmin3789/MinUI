@@ -5,8 +5,50 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MinUI.UpdateTest.View.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+             d:DesignHeight="450" d:DesignWidth="800"
+			 xmlns:ui="clr-namespace:MinUI.Core;assembly=MinUI.Core"
+			 xmlns:converter="clr-namespace:MinUI.UpdateTest.Converter">
+	<UserControl.Resources>
+		<converter:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+	</UserControl.Resources>
+	<Grid Background="{DynamicResource BackgroundBrush}">
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="50"/>
+		</Grid.RowDefinitions>
+		<Grid>
+			<StackPanel>
+				<!-- File Path Browser -->
+				<Grid Height="30" Margin="10">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*"/>
+						<ColumnDefinition Width="100"/>
+					</Grid.ColumnDefinitions>
+					<ui:Card Margin="0,0,10,0">
+						<TextBlock Text="{Binding FilePath}"/>
+					</ui:Card>
+					<ui:Button Grid.Column="1" Command="{Binding FileBrowseCommand}">Browse...</ui:Button>
+				</Grid>
+				<StackPanel>
+					<ui:ProgressBar Margin="10,0,10,0" Height="20" Value="{Binding DownloadProgressValue}"/>
+				</StackPanel>
+				<ui:Card Relief="Engraved" Margin="10">
+					<ListView Background="Transparent" BorderThickness="0" MinHeight="30" 
+							  ItemsSource="{Binding DownloadLogs}">
+						
+					</ListView>
+				</ui:Card>
+			</StackPanel>
+		</Grid>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Grid.Row="1">
+			<ui:Button Width="80" Height="30" Command="{Binding PrevCommand}" 
+					   Visibility="{Binding InstallBtnVisible,Converter={StaticResource BooleanToVisibilityConverter}}">Prev</ui:Button>
+			<ui:Button Width="80" Height="30" Command="{Binding NextCommand}" 
+					   Margin="10,0,0,0" 
+					   Visibility="{Binding NextBtnVisible,Converter={StaticResource BooleanToVisibilityConverter}}">Next</ui:Button>
+			<ui:Button Width="80" Height="30" Command="{Binding InstallCommand}" 
+					   Margin="10,0,0,0" IsEnabled="{Binding InstallBtnEnabled}"
+					   Visibility="{Binding InstallBtnVisible,Converter={StaticResource BooleanToVisibilityConverter}}">Install</ui:Button>
+		</StackPanel>
+	</Grid>
 </UserControl>

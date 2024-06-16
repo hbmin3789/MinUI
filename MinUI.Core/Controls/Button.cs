@@ -101,9 +101,12 @@ public class Button : NeumorphBase
     void RaiseClickEvent()
     {
         RaiseEvent(new(routedEvent: ClickEvent));
-        if (Command.CanExecute(CommandParameter))
+        if(Command != null)
         {
-            Command.Execute(CommandParameter);
+            if (Command.CanExecute(CommandParameter))
+            {
+                Command.Execute(CommandParameter);
+            }
         }
     }
 

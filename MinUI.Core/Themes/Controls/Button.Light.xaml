@@ -3,8 +3,9 @@
 					xmlns:ctrls="clr-namespace:MinUI.Core"
 					xmlns:converters="clr-namespace:MinUI.Core.Converters">
 	<converters:IsMouseOverToBackgroundConverter x:Key="IsMouseOverToBackgroundConverter"/>
+	<converters:IsEnabledToCursorConverter x:Key="IsEnabledToCursorConverter" />
 	<ControlTemplate x:Key="CommonButtonControlTemplate" TargetType="{x:Type ctrls:Button}">
-		<Border Effect="{DynamicResource LightShadowEffect}" CornerRadius="5">
+		<Border Effect="{DynamicResource LightShadowEffect}" CornerRadius="5" Cursor="{TemplateBinding IsEnabled,Converter={StaticResource IsEnabledToCursorConverter}}">
 			<Border x:Name="ContainerBackground" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
 					Background="{Binding RelativeSource={RelativeSource Mode=TemplatedParent},Path=IsMouseOver,Converter={StaticResource IsMouseOverToBackgroundConverter}}"
 					Effect="{DynamicResource DarkShadowEffect}" CornerRadius="5">
