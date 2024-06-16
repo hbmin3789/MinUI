@@ -1,4 +1,4 @@
-﻿using MinUI.UpdateTest.ViewModel;
+﻿using MinUI.DownloadTest.ViewModel;
 using Prism.Commands;
 using Prism.Mvvm;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MinUI.UpdateTest.Util
+namespace MinUI.DownloadTest.Util
 {
     public class ViewSelector : BindableBase
     {

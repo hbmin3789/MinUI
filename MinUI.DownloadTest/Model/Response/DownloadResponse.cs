@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MinUI.UpdateTest.Model.Response
+namespace MinUI.DownloadTest.Model.Response
 {
     public class DownloadResponse
     {

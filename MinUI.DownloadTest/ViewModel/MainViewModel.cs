@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MinUI.UpdateTest.ViewModel
+namespace MinUI.DownloadTest.ViewModel
 {
     public class MainViewModel : BindableBase
     {

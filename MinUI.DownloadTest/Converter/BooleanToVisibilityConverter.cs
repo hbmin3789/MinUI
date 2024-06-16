@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace MinUI.UpdateTest.Converter
+namespace MinUI.DownloadTest.Converter
 {
     public class BooleanToVisibilityConverter : IValueConverter
     {

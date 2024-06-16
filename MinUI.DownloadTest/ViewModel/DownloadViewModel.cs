@@ -1,5 +1,5 @@
 ﻿using Microsoft.Win32;
-using MinUI.UpdateTest.Service;
+using MinUI.DownloadTest.Service;
 using Prism.Commands;
 using Prism.Mvvm;
 using System;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace MinUI.UpdateTest.ViewModel
+namespace MinUI.DownloadTest.ViewModel
 {
     public class DownloadViewModel : BindableBase
     {
@@ -119,9 +119,9 @@ namespace MinUI.UpdateTest.ViewModel
                 var version = await _networkManager.GetNewVersion();
                 _logger.Log($"New Version : {version.Version}");
                 DownloadProgressValue += 10;
-                await _networkManager.DownloadNewVersion(_logger);
+                await _networkManager.DownloadNewVersion(_logger, FilePath);
                 _logger.Log("download complete");
-                DownloadProgressValue += 90;
+                DownloadProgressValue = 100;
                 NextBtnVisible = true;
             }
             catch (Exception ex) 

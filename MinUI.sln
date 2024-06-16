@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinUI.Core", "MinUI.Core\Mi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinUI.Color", "MinUI.Color\MinUI.Color.csproj", "{6D949F6B-810B-4342-920D-F5BED1AEA7A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinUI.UpdateTest", "MinUI.UpdateTest\MinUI.UpdateTest.csproj", "{572BFBA4-103E-47A7-93B9-52B583B18E2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinUI.DownloadTest", "MinUI.DownloadTest\MinUI.DownloadTest.csproj", "{F8CA0671-DC3B-4341-8650-970D4A41E9A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{6D949F6B-810B-4342-920D-F5BED1AEA7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D949F6B-810B-4342-920D-F5BED1AEA7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D949F6B-810B-4342-920D-F5BED1AEA7A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{572BFBA4-103E-47A7-93B9-52B583B18E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{572BFBA4-103E-47A7-93B9-52B583B18E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{572BFBA4-103E-47A7-93B9-52B583B18E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{572BFBA4-103E-47A7-93B9-52B583B18E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CA0671-DC3B-4341-8650-970D4A41E9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CA0671-DC3B-4341-8650-970D4A41E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CA0671-DC3B-4341-8650-970D4A41E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CA0671-DC3B-4341-8650-970D4A41E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

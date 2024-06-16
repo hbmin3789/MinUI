@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MinUI.UpdateTest.Service
+namespace MinUI.DownloadTest.Service
 {
     public class DownloadLogger : BindableBase
     {

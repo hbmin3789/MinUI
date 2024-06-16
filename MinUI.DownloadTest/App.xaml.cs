@@ -4,7 +4,7 @@ using System.Data;
 using System.Windows;
 using System.Windows.Navigation;
 
-namespace MinUI.UpdateTest
+namespace MinUI.DownloadTest
 {
     /// <summary>
     /// Interaction logic for App.xaml

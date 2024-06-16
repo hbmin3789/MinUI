@@ -1,13 +1,13 @@
-﻿<Application x:Class="MinUI.UpdateTest.App"
+﻿<Application x:Class="MinUI.DownloadTest.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:MinUI.UpdateTest"
-			 xmlns:util="clr-namespace:MinUI.UpdateTest.Util"
+			 xmlns:local="clr-namespace:MinUI.DownloadTest" 
+			 xmlns:util="clr-namespace:MinUI.DownloadTest.Util"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="pack://application:,,,/MinUI.UpdateTest;component/View/ViewSelector.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/MinUI.DownloadTest;component/View/ViewSelector.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 			<util:ViewSelector x:Key="ViewSelector" />
 		</ResourceDictionary>

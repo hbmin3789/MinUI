@@ -1,4 +1,5 @@
 import WebSocket from "ws";
+import path from "path";
 
 import fs from "fs";
 import { getVersionFiles } from "../release/getVersion";
@@ -15,26 +16,32 @@ export const initDownloadWebSocket = (wss: WebSocket.Server) => {
         const files = getVersionFiles("1.0");
         ws.send(
           JSON.stringify({
-            message: `${files.length}`,
+            message: `file count:${files.length}`,
           })
         );
         console.log(`file count : ${files.length}`);
         files.forEach((filePath) => {
-          fs.readFile(filePath, (err, data) => {
-            if (err) {
-              console.error("파일 읽기 중 오류 발생:", err);
+          const fileName = path.basename(filePath);
+          const fileStream = fs.createReadStream(filePath, {
+            encoding: "base64",
+          });
+          fileStream.on("data", (chunk) => {
+            let start = 0;
+            const chunkSize = 8192; // 8KB
+            while (start < chunk.length) {
+              const end = start + chunkSize;
               ws.send(
-                JSON.stringify({ error: "파일 읽기 중 오류가 발생했습니다." })
+                JSON.stringify({ fileName, fileData: chunk.slice(start, end) })
               );
-              return;
+              start = end;
             }
+          });
 
-            ws.send(
-              JSON.stringify({
-                fileName: filePath,
-                fileData: data.toString("base64"),
-              })
-            );
+          fileStream.on("end", () => {
+            ws.send(JSON.stringify({ fileName, message: "eof" }));
+          });
+          fileStream.on("error", () => {
+            ws.send(JSON.stringify({ fileName, error: "error" }));
           });
         });
       }
