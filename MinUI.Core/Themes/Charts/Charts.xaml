@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ResourceDictionary.MergedDictionaries>
+		<!-- BarChart -->
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.YAxis.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.Background.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.Foreground.xaml" />
+	</ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

@@ -115,7 +115,7 @@ public class Button : NeumorphBase
 
     static Button()
     {
-        DefaultStyleKeyProperty.OverrideMetadata(typeof(Button), new FrameworkPropertyMetadata(typeof(Button)));
+        //DefaultStyleKeyProperty.OverrideMetadata(typeof(Button), new FrameworkPropertyMetadata(typeof(Button)));
     }
 
     public override void OnApplyTemplate()
