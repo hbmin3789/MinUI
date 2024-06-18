@@ -106,10 +106,14 @@ public class BarChartBackground : NeumorphBase
         _guideLineBackground = GetTemplateChild(GuideLineBackgroundPartName) as StackPanel;
     }
 
+    public double GetGuideLineHeight()
+    {
+        return (ActualHeight - HeaderHeight.Value) / (GuideLineCount + 1);
+    }
+
     public void AddGuidLine()
     {
-        var guideLineHeight = (ActualHeight - HeaderHeight.Value) / (GuideLineCount + 1);
-        GuideLineHeight = guideLineHeight;
+        GuideLineHeight = GetGuideLineHeight();
         if (_guideLineBackground?.Children.Count == 0 && ActualHeight > 0)
         {
             double dec = 1d / GuideLineCount;

@@ -3,60 +3,48 @@
   "WorkspaceRootPath": "B:\\Workspace\\MinUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.xaxis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.xaxis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\charts\\barchart\\barchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\charts\\barchart\\barchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.background.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.background.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.foreground.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.foreground.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\primarylightbrush.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\primarylightbrush.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\charts\\barchart\\barchart.foreground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\charts\\barchart\\barchart.foreground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.yaxis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.yaxis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\models\\chart\\chartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\models\\chart\\chartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\models\\chart\\barchartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\models\\chart\\barchartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.foreground.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.foreground.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|b:\\workspace\\minui\\minui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4037C948-1E0B-4901-B585-7A5AF698D62E}|MinUI\\MinUI.Test.csproj|solutionrelative:minui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\charts\\barchart\\barchart.background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\charts\\barchart\\barchart.background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\charts\\barchart\\yaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\charts\\barchart\\yaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\charts\\barchart\\barchart.tooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\charts\\barchart\\barchart.tooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\themes\\charts\\barchart\\barchart.tooltip.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\themes\\charts\\barchart\\barchart.tooltip.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\accordion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\accordion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|b:\\workspace\\minui\\minui.core\\controls\\charts\\barchart\\barchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C31544-D4D9-42EB-9278-E28F784D55AF}|MinUI.Core\\MinUI.Core.csproj|solutionrelative:minui.core\\controls\\charts\\barchart\\barchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,180 +54,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PrimaryLightBrush.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\PrimaryLightBrush.xaml",
+              "DocumentIndex": 0,
+              "Title": "BarChart.XAxis.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.XAxis.xaml",
+              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.XAxis.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.XAxis.xaml",
+              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.XAxis.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T03:11:48.346Z",
+              "WhenOpened": "2024-06-18T08:28:29.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BarChart.Foreground.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-17T09:33:22.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BarChart.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-17T09:32:49.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "YAxis.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\YAxis.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\YAxis.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\YAxis.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\YAxis.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T09:27:25.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BarChart.Background.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Background.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Background.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Background.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Background.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-17T09:27:07.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "BarChart.YAxis.xaml",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.YAxis.xaml",
               "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.YAxis.xaml",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.YAxis.xaml",
               "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.YAxis.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-17T09:26:53.341Z",
+              "WhenOpened": "2024-06-18T08:28:29.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Accordion.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Accordion.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Accordion.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Accordion.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\Accordion.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ChartData.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Models\\Chart\\ChartData.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Models\\Chart\\ChartData.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Models\\Chart\\ChartData.cs",
+              "RelativeToolTip": "MinUI.Core\\Models\\Chart\\ChartData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T21:38:32.051Z",
+              "WhenOpened": "2024-06-18T08:27:06.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MinUI\\MainWindow.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml",
-              "RelativeToolTip": "MinUI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-17T22:41:39.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BarChart.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCsAAAAiAAAA",
+              "DocumentIndex": 4,
+              "Title": "BarChartData.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Models\\Chart\\BarChartData.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Models\\Chart\\BarChartData.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Models\\Chart\\BarChartData.cs",
+              "RelativeToolTip": "MinUI.Core\\Models\\Chart\\BarChartData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T09:35:56.289Z",
+              "WhenOpened": "2024-06-18T08:27:04.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BarChart.Background.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAYwGoAAAAFAAAA",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MinUI\\MainWindow.xaml.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MinUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T09:34:00.77Z",
+              "WhenOpened": "2024-06-18T07:58:23.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Button.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Button.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Button.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Button.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\Button.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAwwHUAAAALAAAA",
+              "DocumentIndex": 6,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MinUI\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "MinUI\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAtwBYAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T09:36:56.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProgressBar.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\ProgressBar.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\ProgressBar.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\ProgressBar.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\ProgressBar.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T21:39:03.216Z",
+              "WhenOpened": "2024-06-18T07:53:05.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BarChart.ToolTip.xaml",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.ToolTip.xaml",
-              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.ToolTip.xaml",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.ToolTip.xaml",
-              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.ToolTip.xaml",
+              "DocumentIndex": 8,
+              "Title": "BarChart.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
+              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
+              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T00:14:11.542Z",
+              "WhenOpened": "2024-06-18T07:52:03.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BarChart.ToolTip.cs",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.ToolTip.cs",
-              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.ToolTip.cs",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.ToolTip.cs",
-              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.ToolTip.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "BarChart.Background.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
+              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Background.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T00:14:22.611Z",
+              "WhenOpened": "2024-06-18T07:51:46.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BarChart.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
+              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:50:12.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BarChart.Foreground.cs",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Foreground.cs",
+              "RelativeDocumentMoniker": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Foreground.cs",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Foreground.cs",
+              "RelativeToolTip": "MinUI.Core\\Controls\\Charts\\BarChart\\BarChart.Foreground.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAkwEQAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:49:56.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BarChart.Foreground.xaml",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
+              "RelativeDocumentMoniker": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
+              "RelativeToolTip": "MinUI.Core\\Themes\\Charts\\BarChart\\BarChart.Foreground.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T07:49:35.013Z",
               "EditorCaption": ""
             }
           ]

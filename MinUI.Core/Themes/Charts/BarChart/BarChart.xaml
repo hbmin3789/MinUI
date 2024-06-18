@@ -6,9 +6,12 @@
 			<Setter.Value>
 				<ControlTemplate TargetType="{x:Type chart:BarChart}">
 					<Grid Height="{TemplateBinding Height}">
-						<chart:BarChartBackground Height="{TemplateBinding Height}" Width="{TemplateBinding Width}"
-												  Title="{TemplateBinding Title}"/>
-						<!--<chart:BarChartForeground />-->
+						<chart:BarChartBackground x:Name="PART_Background" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}"
+												  Title="{TemplateBinding Title}" GuideLineCount="{TemplateBinding GuideLineCount}"/>
+						<chart:BarChartForeground x:Name="PART_Foreground" Height="{TemplateBinding Height}"
+												  Width="{TemplateBinding Width}" 
+												  GuideLineHeight="{TemplateBinding GuideLineHeight}"
+												  DatasSource="{Binding DatasSource}"/>
 						<!--<chart:BarChartToolTip Style="{TemplateBinding ToolTipStyle}"/>-->
 					</Grid>
 				</ControlTemplate>

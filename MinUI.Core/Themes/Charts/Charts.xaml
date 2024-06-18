@@ -4,6 +4,7 @@
 		<!-- BarChart -->
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.YAxis.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.XAxis.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.Background.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/BarChart/BarChart.Foreground.xaml" />
 	</ResourceDictionary.MergedDictionaries>

@@ -6,11 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
 
 namespace MinUI.Core.Charts;
 
 public class BarChart : NeumorphBase
 {
+    private string BackgroundPartName = "PART_Background";
+    private string ForegroundPartName = "PART_Foreground";
+    private BarChartBackground _background;
+    private BarChartForeground _foreground;
+
+
     #region DependencyProperty
 
     public static readonly DependencyProperty ItemTemplateProperty = DependencyProperty.Register(
@@ -23,11 +31,11 @@ public class BarChart : NeumorphBase
     }
 
     public static readonly DependencyProperty DatasSourceProperty = DependencyProperty.Register(
-        nameof(DatasSource), typeof(List<BarChartData>), typeof(BarChart), new FrameworkPropertyMetadata(default(List<BarChartData>), FrameworkPropertyMetadataOptions.AffectsArrange));
+        nameof(DatasSource), typeof(object), typeof(BarChart), new FrameworkPropertyMetadata(default(object), FrameworkPropertyMetadataOptions.AffectsArrange));
 
-    public List<BarChartData> DatasSource
+    public object DatasSource
     {
-        get => (List<BarChartData>)GetValue(DatasSourceProperty);
+        get => GetValue(DatasSourceProperty);
         set => SetValue(DatasSourceProperty, value);
     }
 
@@ -49,10 +57,50 @@ public class BarChart : NeumorphBase
         set => SetValue(TitleProperty, value);
     }
 
+    public static readonly DependencyProperty GuideLineCountProperty = DependencyProperty.Register(
+    nameof(GuideLineCount), typeof(int), typeof(BarChart), new FrameworkPropertyMetadata(4, FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public int GuideLineCount
+    {
+        get => (int)GetValue(GuideLineCountProperty);
+        set => SetValue(GuideLineCountProperty, value);
+    }
+
+    public static readonly DependencyProperty GuideLineHeightProperty = DependencyProperty.Register(
+    nameof(GuideLineHeight), typeof(double), typeof(BarChart), new FrameworkPropertyMetadata(default(double), FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public double GuideLineHeight
+    {
+        get => (double)GetValue(GuideLineHeightProperty);
+        set => SetValue(GuideLineHeightProperty, value);
+    }
+
     #endregion
 
     public override void OnApplyTemplate()
     {
         base.OnApplyTemplate();
+        _background = GetTemplateChild(BackgroundPartName) as BarChartBackground;
+        _foreground = GetTemplateChild(ForegroundPartName) as BarChartForeground;
+        if (_background != null)
+        {
+            _background.SizeChanged += BarChartBackground_SizeChanged;
+            _background.DataContext = this;
+        }
+        if(_foreground != null)
+        {
+            _foreground.DataContext = this;
+        }
     }
+
+    private void BarChartBackground_SizeChanged(object sender, SizeChangedEventArgs e)
+    {
+        GuideLineHeight = _background.GetGuideLineHeight();
+    }
+
+    public BarChart()
+    {
+
+    }
+
 }

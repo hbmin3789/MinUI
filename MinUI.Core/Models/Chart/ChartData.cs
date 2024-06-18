@@ -4,24 +4,24 @@ using System.ComponentModel;
 
 namespace MinUI.Core.Models.Chart
 {
-    public class ChartData : INotifyPropertyChanged
+    public class ChartData<X,Y> : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
         #region Properties
 
-        private int _x;
-        public int X
+        private X _xData;
+        public X XData
         {
-            get => _x;
-            set => SetProperty(ref _x, value);
+            get => _xData;
+            set => SetProperty(ref _xData, value);
         }
 
-        private int _y;
-        public int Y
+        private Y _yData;
+        public Y YData
         {
-            get => _y;
-            set => SetProperty(ref _y, value);
+            get => _yData;
+            set => SetProperty(ref _yData, value);
         }
 
         #endregion

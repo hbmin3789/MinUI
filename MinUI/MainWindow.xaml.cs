@@ -1,5 +1,6 @@
 ﻿using MinUI.Core.Enummerables;
 using MinUI.Core.Utils;
+using MinUI.Test.ViewModels;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,6 +22,9 @@ namespace MinUI
         public MainWindow()
         {
             InitializeComponent();
+            var viewmodel = new MainViewModel();
+            this.DataContext = viewmodel;
+            bc.DatasSource = viewmodel.BarChartDatas.ToList();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
