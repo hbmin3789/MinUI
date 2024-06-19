@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MinUI.Core.Models.Chart
 {
-    public class BarChartData<T> : ChartData<T, double>
+    public class BarChartData : ChartData<object, double>
     {
         public BarChartData() { }
     }

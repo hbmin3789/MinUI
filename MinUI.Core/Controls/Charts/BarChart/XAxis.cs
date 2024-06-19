@@ -4,12 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Markup;
+using System.Windows.Media;
 
 namespace MinUI.Core.Charts;
 
 internal class XAxis : NeumorphBase
 {
+    private string BarPartName = "PART_Bar";
+    private string ContainerPartName = "PART_Container";
+    private Border _bar;
+    private Grid _container;
+
     #region DependencyProperties
 
     public static readonly DependencyProperty XDataProperty = DependencyProperty.Register(
@@ -39,15 +46,6 @@ internal class XAxis : NeumorphBase
         set => SetValue(MaxYDataProperty, value);
     }
 
-    public static readonly DependencyProperty MaxHeightProperty = DependencyProperty.Register(
-    nameof(MaxHeight), typeof(double), typeof(XAxis), new FrameworkPropertyMetadata(default(double), FrameworkPropertyMetadataOptions.AffectsArrange));
-
-    public double MaxHeight
-    {
-        get => (double)GetValue(MaxHeightProperty);
-        set => SetValue(MaxHeightProperty, value);
-    }
-
     public static readonly DependencyProperty GuideLineHeightProperty = DependencyProperty.Register(
     nameof(GuideLineHeight), typeof(double), typeof(XAxis), new FrameworkPropertyMetadata(default(double), FrameworkPropertyMetadataOptions.AffectsArrange));
 
@@ -62,6 +60,21 @@ internal class XAxis : NeumorphBase
     public override void OnApplyTemplate()
     {
         base.OnApplyTemplate();
+        _bar = GetTemplateChild(BarPartName) as Border;
+        _container = GetTemplateChild(ContainerPartName) as Grid;
+    }
 
+    protected override void OnRender(DrawingContext drawingContext)
+    {
+        base.OnRender(drawingContext);
+        UpdateHeight();
+    }
+
+    public void UpdateHeight()
+    {
+        if (_bar != null && _container != null)
+        {
+            _bar.Height = (((_container.ActualHeight / MaxYData) * YData) - (GuideLineHeight / 2));
+        }
     }
 }

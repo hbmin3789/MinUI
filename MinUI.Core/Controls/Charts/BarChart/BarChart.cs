@@ -75,6 +75,15 @@ public class BarChart : NeumorphBase
         set => SetValue(GuideLineHeightProperty, value);
     }
 
+    public static readonly DependencyProperty HeaderHeightProperty = DependencyProperty.Register(
+    nameof(HeaderHeight), typeof(GridLength), typeof(BarChart), new FrameworkPropertyMetadata(new GridLength(50), FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public GridLength HeaderHeight
+    {
+        get => (GridLength)GetValue(HeaderHeightProperty);
+        set => SetValue(HeaderHeightProperty, value);
+    }
+
     #endregion
 
     public override void OnApplyTemplate()

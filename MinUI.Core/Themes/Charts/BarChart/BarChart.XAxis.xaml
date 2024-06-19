@@ -12,13 +12,18 @@
 							<RowDefinition Height="*" />
 							<RowDefinition Height="{TemplateBinding GuideLineHeight,Converter={StaticResource GuideLineToXAxisHeightConverter}}" />
 						</Grid.RowDefinitions>
-						<Grid Grid.Row="0" Width="40" Height="80" VerticalAlignment="Bottom">
-							<Border Effect="{DynamicResource DarkShadowEffect}" CornerRadius="5">
-								<Border Effect="{DynamicResource LightShadowEffect}"
-										CornerRadius="5"
-										Background="{DynamicResource BarChartForegroundBrush}">
+						<Grid x:Name="PART_Container">
+							<Grid Width="40"
+								  VerticalAlignment="Bottom">
+								<Border x:Name="PART_Bar"
+										Effect="{DynamicResource DarkShadowEffect}"
+										CornerRadius="5">
+									<Border Effect="{DynamicResource LightShadowEffect}"
+											CornerRadius="5"
+											Background="{DynamicResource BarChartForegroundBrush}">
+									</Border>
 								</Border>
-							</Border>
+							</Grid>
 						</Grid>
 						<Grid Grid.Row="1"
 							  VerticalAlignment="Top">

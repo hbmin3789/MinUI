@@ -11,8 +11,8 @@ namespace MinUI.Test.ViewModels
 {
     internal class MainViewModel : BindableBase
     {
-        private ObservableCollection<BarChartData<string>> _barChartDatas;
-        public ObservableCollection<BarChartData<string>> BarChartDatas
+        private ObservableCollection<BarChartData> _barChartDatas;
+        public ObservableCollection<BarChartData> BarChartDatas
         {
             get => _barChartDatas;
             set => SetProperty(ref _barChartDatas, value);
@@ -20,7 +20,7 @@ namespace MinUI.Test.ViewModels
 
         public MainViewModel()
         {
-            BarChartDatas = [new BarChartData<string>() { XData="asd", YData=100 }, new BarChartData<string>() { XData="asd1", YData = 80 }, new BarChartData<string>() { XData = "asd1", YData = 70 }];
+            BarChartDatas = [new BarChartData() { XData="asd", YData=100 }, new BarChartData() { XData="asd1", YData = 80 }, new BarChartData() { XData = "asd1", YData = 70 }];
         }
     }
 }

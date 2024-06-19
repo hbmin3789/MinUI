@@ -13,8 +13,12 @@
 							<ColumnDefinition Width="50" />
 							<ColumnDefinition Width="*" />
 						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="{TemplateBinding HeaderHeight}"/>
+							<RowDefinition Height="*"/>
+						</Grid.RowDefinitions>
 						<!-- XAxis -->
-						<Grid x:Name="PART_XAxisGrid" Grid.Column="1">
+						<Grid x:Name="PART_XAxisGrid" Grid.Column="1" Grid.Row="1">
 
 						</Grid>
 					</Grid>

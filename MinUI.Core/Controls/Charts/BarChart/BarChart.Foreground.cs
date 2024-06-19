@@ -29,7 +29,22 @@ public class BarChartForeground : NeumorphBase
     }
 
     public static readonly DependencyProperty DatasSourceProperty = DependencyProperty.Register(
-        nameof(DatasSource), typeof(object), typeof(BarChartForeground), new FrameworkPropertyMetadata(default(object), FrameworkPropertyMetadataOptions.AffectsArrange));
+        nameof(DatasSource), typeof(object), typeof(BarChartForeground), new FrameworkPropertyMetadata(default(object), FrameworkPropertyMetadataOptions.AffectsArrange, OnDatasSourceChanged));
+
+    private static void OnDatasSourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    {
+        var instance = (BarChartForeground)d;
+        instance.UpdateMaxValue();
+    }
+
+    public static readonly DependencyProperty HeaderHeightProperty = DependencyProperty.Register(
+    nameof(HeaderHeight), typeof(GridLength), typeof(BarChartForeground), new FrameworkPropertyMetadata(new GridLength(50), FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public GridLength HeaderHeight
+    {
+        get => (GridLength)GetValue(HeaderHeightProperty);
+        set => SetValue(HeaderHeightProperty, value);
+    }
 
     public object DatasSource
     {
@@ -57,10 +72,19 @@ public class BarChartForeground : NeumorphBase
     private XAxis GetNewXAxis(object dataSource)
     {
         var retval = new XAxis();
-        retval.SetBinding(XAxis.YDataProperty, "YData");
-        retval.SetBinding(XAxis.XDataProperty, "XData");
+        var yBinding = new Binding("YData");
+        yBinding.Source = dataSource;
+        var xBinding = new Binding("XData");
+        xBinding.Source = dataSource;
+        retval.SetBinding(XAxis.YDataProperty, yBinding);
+        retval.SetBinding(XAxis.XDataProperty, xBinding);
         retval.DataContext = dataSource;
         return retval;
+    }
+
+    private void UpdateMaxValue()
+    {
+        UpdateXAxis();
     }
 
     public void OnGuideLineHeightChanged(double guideLineHeight)
@@ -75,15 +99,24 @@ public class BarChartForeground : NeumorphBase
     public override void OnApplyTemplate()
     {
         base.OnApplyTemplate();
+        UpdateXAxis();
+    }
+
+    private void UpdateXAxis()
+    {
         _xAxisGrid = GetTemplateChild(XAxisGridPartName) as Grid;
         if (_xAxisGrid != null)
         {
-            var datasSource = (DatasSource as IEnumerable<object>).ToList();
+            _xAxisGrid.ColumnDefinitions.Clear();
+            _xAxisGrid.Children.Clear();
+            var datasSource = (DatasSource as IEnumerable<BarChartData>).ToList();
+            var max = datasSource.Max(data => data.YData);
             var columns = GetColumns(datasSource.Count);
-            for(int i=0; i<columns.Count; i++)
+            for (int i = 0; i < columns.Count; i++)
             {
                 _xAxisGrid.ColumnDefinitions.Add(columns[i]);
                 var newItem = GetNewXAxis(datasSource[i]);
+                newItem.MaxYData = max;
                 Grid.SetColumn(newItem, i);
                 _xAxisGrid.Children.Add(newItem);
             }
