@@ -10,8 +10,7 @@
 												  Title="{TemplateBinding Title}" GuideLineCount="{TemplateBinding GuideLineCount}"/>
 						<chart:BarChartForeground x:Name="PART_Foreground" Height="{TemplateBinding Height}"
 												  Width="{TemplateBinding Width}" 
-												  GuideLineHeight="{TemplateBinding GuideLineHeight}"
-												  DatasSource="{Binding DatasSource}"/>
+												  DatasSource="{TemplateBinding DatasSource}"/>
 						<!--<chart:BarChartToolTip Style="{TemplateBinding ToolTipStyle}"/>-->
 					</Grid>
 				</ControlTemplate>

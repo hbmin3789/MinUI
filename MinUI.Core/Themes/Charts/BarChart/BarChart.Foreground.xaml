@@ -3,7 +3,7 @@
 					xmlns:chart="clr-namespace:MinUI.Core.Charts"
 					xmlns:converter="clr-namespace:MinUI.Core.Converters"
 					xmlns:chartType="clr-namespace:MinUI.Core.Models.Chart">
-	<converter:GuideLineToXAxisHeightConverter x:Key="GuideLineToXAxisHeightConverter" />
+	
 	<Style TargetType="{x:Type chart:BarChartForeground}">
 		<Setter Property="Template">
 			<Setter.Value>
@@ -13,17 +13,9 @@
 							<ColumnDefinition Width="50" />
 							<ColumnDefinition Width="*" />
 						</Grid.ColumnDefinitions>
-						<Grid x:Name="PART_ContentGrid" Grid.Column="1">
-							<Grid.RowDefinitions>
-								<RowDefinition Height="*"/>
-								<RowDefinition Height="{TemplateBinding GuideLineHeight,Converter={StaticResource GuideLineToXAxisHeightConverter}}" />
-							</Grid.RowDefinitions>
-							<!-- Bars -->
-							<Grid Grid.Row="0"></Grid>
-							<!-- XAxis -->
-							<Grid x:Name="PART_XAxisGrid" Grid.Row="1">
-								
-							</Grid>
+						<!-- XAxis -->
+						<Grid x:Name="PART_XAxisGrid" Grid.Column="1">
+
 						</Grid>
 					</Grid>
 				</ControlTemplate>

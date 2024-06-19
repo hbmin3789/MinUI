@@ -3,18 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 
 namespace MinUI.Core.Charts;
 
 public class BarChartForeground : NeumorphBase
 {
-    private string GuideLineBackgroundPartName = "PART_ContentGrid";
     private string XAxisGridPartName = "PART_XAxisGrid";
-    private FrameworkElement _contentGrid;
     private Grid _xAxisGrid;
 
     #region DependencyProperties
@@ -26,15 +26,6 @@ public class BarChartForeground : NeumorphBase
     {
         get => (double)GetValue(GuideLineHeightProperty);
         set => SetValue(GuideLineHeightProperty, value);
-    }
-
-    public static readonly DependencyProperty XAxisHeightProperty = DependencyProperty.Register(
-    nameof(XAxisHeight), typeof(double), typeof(BarChartForeground), new FrameworkPropertyMetadata(default(double), FrameworkPropertyMetadataOptions.AffectsArrange));
-
-    public double XAxisHeight
-    {
-        get => (double)GetValue(XAxisHeightProperty);
-        set => SetValue(XAxisHeightProperty, value);
     }
 
     public static readonly DependencyProperty DatasSourceProperty = DependencyProperty.Register(
@@ -63,10 +54,27 @@ public class BarChartForeground : NeumorphBase
         return columns;
     }
 
+    private XAxis GetNewXAxis(object dataSource)
+    {
+        var retval = new XAxis();
+        retval.SetBinding(XAxis.YDataProperty, "YData");
+        retval.SetBinding(XAxis.XDataProperty, "XData");
+        retval.DataContext = dataSource;
+        return retval;
+    }
+
+    public void OnGuideLineHeightChanged(double guideLineHeight)
+    {
+        GuideLineHeight = guideLineHeight;
+        foreach (XAxis item in _xAxisGrid.Children)
+        {
+            item.GuideLineHeight = GuideLineHeight;
+        }
+    }
+
     public override void OnApplyTemplate()
     {
         base.OnApplyTemplate();
-        _contentGrid = GetTemplateChild(GuideLineBackgroundPartName) as FrameworkElement;
         _xAxisGrid = GetTemplateChild(XAxisGridPartName) as Grid;
         if (_xAxisGrid != null)
         {
@@ -75,9 +83,7 @@ public class BarChartForeground : NeumorphBase
             for(int i=0; i<columns.Count; i++)
             {
                 _xAxisGrid.ColumnDefinitions.Add(columns[i]);
-                var newItem = new XAxis();
-                newItem.DataContext = datasSource[i];
-                newItem.SetBinding(XAxis.ValueProperty, "XData");
+                var newItem = GetNewXAxis(datasSource[i]);
                 Grid.SetColumn(newItem, i);
                 _xAxisGrid.Children.Add(newItem);
             }

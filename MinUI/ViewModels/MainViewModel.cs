@@ -20,7 +20,7 @@ namespace MinUI.Test.ViewModels
 
         public MainViewModel()
         {
-            BarChartDatas = [new BarChartData<string>() { XData="asd" }, new BarChartData<string>() { XData="asd1"}];
+            BarChartDatas = [new BarChartData<string>() { XData="asd", YData=100 }, new BarChartData<string>() { XData="asd1", YData = 80 }, new BarChartData<string>() { XData = "asd1", YData = 70 }];
         }
     }
 }

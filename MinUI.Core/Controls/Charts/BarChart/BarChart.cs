@@ -82,20 +82,13 @@ public class BarChart : NeumorphBase
         base.OnApplyTemplate();
         _background = GetTemplateChild(BackgroundPartName) as BarChartBackground;
         _foreground = GetTemplateChild(ForegroundPartName) as BarChartForeground;
-        if (_background != null)
-        {
-            _background.SizeChanged += BarChartBackground_SizeChanged;
-            _background.DataContext = this;
-        }
-        if(_foreground != null)
-        {
-            _foreground.DataContext = this;
-        }
+        this.SizeChanged += BarChart_SizeChanged;
     }
 
-    private void BarChartBackground_SizeChanged(object sender, SizeChangedEventArgs e)
+    private void BarChart_SizeChanged(object sender, SizeChangedEventArgs e)
     {
         GuideLineHeight = _background.GetGuideLineHeight();
+        _foreground.OnGuideLineHeightChanged(GuideLineHeight);
     }
 
     public BarChart()
