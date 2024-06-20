@@ -74,7 +74,11 @@ internal class XAxis : NeumorphBase
     {
         if (_bar != null && _container != null)
         {
-            _bar.Height = (((_container.ActualHeight / MaxYData) * YData) - (GuideLineHeight / 2));
+            var newHeight = (((_container.ActualHeight / MaxYData) * YData) - (GuideLineHeight / 2));
+            if(newHeight > 0)
+            {
+                _bar.Height = newHeight;
+            }
         }
     }
 }

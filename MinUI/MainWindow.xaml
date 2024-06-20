@@ -6,7 +6,7 @@
 		xmlns:local="clr-namespace:MinUI"
 		mc:Ignorable="d"
 		Title="MainWindow"
-		Height="450"
+		Height="700"
 		Width="800"
 		xmlns:min="clr-namespace:MinUI.Core;assembly=MinUI.Core"
 		xmlns:chart="clr-namespace:MinUI.Core.Charts;assembly=MinUI.Core">
