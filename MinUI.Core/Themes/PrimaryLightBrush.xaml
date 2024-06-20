@@ -22,4 +22,11 @@
 	<SolidColorBrush x:Key="SwitchButtonOffBackgroundBrush" Color="#33EFEEEE" />
 	<!-- ProgressBar -->
 	<SolidColorBrush x:Key="ProgressBarInnerBackgroundDarkShadowBrush" Color="#aaaaaa" />
+	
+	<!-- ChartBrush -->
+	<!-- BarChartBrush -->
+	<SolidColorBrush x:Key="BarChartYAxisGuidLineBrush"
+					 Color="#aaaaaa" />
+	<SolidColorBrush x:Key="BarChartForegroundBrush"
+					 Color="#4a8fff" />
 </ResourceDictionary>
