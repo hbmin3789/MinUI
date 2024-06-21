@@ -2,10 +2,11 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MinUI"
-             StartupUri="MainWindow.xaml">
+             StartupUri="MainWindow.xaml"
+			 xmlns:utils="clr-namespace:MinUI.Core.Utils;assembly=MinUI.Core">
     <Application.Resources>
 		<ResourceDictionary>
-			
-        </ResourceDictionary>
+			<utils:ThemeSelector x:Key="ThemeSelector"/>
+		</ResourceDictionary>
 	</Application.Resources>
 </Application>

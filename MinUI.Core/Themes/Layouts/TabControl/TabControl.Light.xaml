@@ -5,7 +5,13 @@
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate TargetType="{x:Type ctrls:TabControl}">
-					
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition />
+							<ColumnDefinition />
+						</Grid.ColumnDefinitions>
+						<ctrls:TabHeader Grid.Column="0" />
+					</Grid>
 				</ControlTemplate>
 			</Setter.Value>
 		</Setter>
