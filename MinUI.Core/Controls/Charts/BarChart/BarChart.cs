@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Media;
 
 namespace MinUI.Core.Charts;
 
@@ -91,13 +92,19 @@ public class BarChart : NeumorphBase
         base.OnApplyTemplate();
         _background = GetTemplateChild(BackgroundPartName) as BarChartBackground;
         _foreground = GetTemplateChild(ForegroundPartName) as BarChartForeground;
-        this.SizeChanged += BarChart_SizeChanged;
+        
+    }
+
+    protected override void OnRender(DrawingContext drawingContext)
+    {
+        base.OnRender(drawingContext);
+        GuideLineHeight = _background.GetGuideLineHeight();
+        _foreground.OnGuideLineHeightChanged(GuideLineHeight);
     }
 
     private void BarChart_SizeChanged(object sender, SizeChangedEventArgs e)
     {
-        GuideLineHeight = _background.GetGuideLineHeight();
-        _foreground.OnGuideLineHeightChanged(GuideLineHeight);
+        
     }
 
     public BarChart()

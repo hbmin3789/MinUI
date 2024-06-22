@@ -1,16 +1,21 @@
-﻿using MinUI.Core.Controls.Animation;
-using MinUI.Core.Enummerables;
+﻿using MinUI.Core.Enummerables;
 using MinUI.Core.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace MinUI.Core;
 
-public class NeumorphBase : AnimationBase, INeumorphBase, INotifyPropertyChanged
+public class NeumorphCollectionBase : ItemsControl, INeumorphBase, INotifyPropertyChanged
 {
     public static readonly DependencyProperty ReliefProperty = DependencyProperty.Register(
-    nameof(Relief), typeof(ERelief), typeof(NeumorphBase), new FrameworkPropertyMetadata(ERelief.Embossed, FrameworkPropertyMetadataOptions.AffectsArrange));
+    nameof(Relief), typeof(ERelief), typeof(NeumorphCollectionBase), new FrameworkPropertyMetadata(ERelief.Embossed, FrameworkPropertyMetadataOptions.AffectsArrange));
 
     public ERelief Relief
     {
@@ -19,6 +24,7 @@ public class NeumorphBase : AnimationBase, INeumorphBase, INotifyPropertyChanged
     }
 
     #region BindableBase
+
     public event PropertyChangedEventHandler? PropertyChanged;
 
     protected virtual bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = null)

@@ -1,7 +1,8 @@
-﻿using MinUI.Core.Enummerables;
-using MinUI.Core.Utils;
-using MinUI.Test.ViewModels;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MinUI
+namespace MinUI.Test.Controls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// CommonControls.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CommonControls : UserControl
     {
-        public MainWindow()
+        public CommonControls()
         {
             InitializeComponent();
         }

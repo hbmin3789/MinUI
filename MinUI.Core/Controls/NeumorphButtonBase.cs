@@ -1,16 +1,23 @@
 ﻿using MinUI.Core.Controls.Animation;
 using MinUI.Core.Enummerables;
 using MinUI.Core.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 
 namespace MinUI.Core;
 
-public class NeumorphBase : AnimationBase, INeumorphBase, INotifyPropertyChanged
+public class NeumorphButtonBase : System.Windows.Controls.Button, IAnimatable, INeumorphBase, INotifyPropertyChanged
 {
+    public TimeSpan AnimationDuration { get; set; }
+
     public static readonly DependencyProperty ReliefProperty = DependencyProperty.Register(
-    nameof(Relief), typeof(ERelief), typeof(NeumorphBase), new FrameworkPropertyMetadata(ERelief.Embossed, FrameworkPropertyMetadataOptions.AffectsArrange));
+    nameof(Relief), typeof(ERelief), typeof(NeumorphButtonBase), new FrameworkPropertyMetadata(ERelief.Embossed, FrameworkPropertyMetadataOptions.AffectsArrange));
 
     public ERelief Relief
     {
@@ -39,6 +46,11 @@ public class NeumorphBase : AnimationBase, INeumorphBase, INotifyPropertyChanged
     protected virtual void OnPropertyChanged(PropertyChangedEventArgs args)
     {
         PropertyChanged?.Invoke(this, args);
+    }
+
+    public void StartAnimation()
+    {
+        throw new NotImplementedException();
     }
     #endregion
 }

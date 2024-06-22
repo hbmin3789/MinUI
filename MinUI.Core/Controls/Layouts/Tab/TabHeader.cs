@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows;
+using System.Windows.Controls;
 
 namespace MinUI.Core;
 
-public class TabControl : System.Windows.Controls.TabControl
+public class TabHeader : NeumorphCollectionBase
 {
+    public TabHeader()
+    {
 
+    }
 }

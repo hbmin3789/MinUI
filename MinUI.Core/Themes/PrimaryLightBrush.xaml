@@ -6,6 +6,7 @@
 	<Color x:Key="LightShadowColor">#ffffff</Color>
 	<Color x:Key="DarkShadowColor">#bebebe</Color>
 	<SolidColorBrush x:Key="BackgroundBrush" Color="#e0e0e0" />
+	<SolidColorBrush x:Key="ForegroundBrush" Color="Black" />
 	<!-- Button Brush -->
 	<SolidColorBrush x:Key="ButtonBackgroundBrush" Color="#e0e0e0" />
 	<SolidColorBrush x:Key="ButtonBrush" Color="#33EFEEEE" />

@@ -16,4 +16,8 @@
     <ProjectReference Include="..\MinUI.Core\MinUI.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+
 </Project>

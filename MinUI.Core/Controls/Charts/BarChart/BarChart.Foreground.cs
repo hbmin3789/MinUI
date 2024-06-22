@@ -104,22 +104,26 @@ public class BarChartForeground : NeumorphBase
 
     private void UpdateXAxis()
     {
-        _xAxisGrid = GetTemplateChild(XAxisGridPartName) as Grid;
-        if (_xAxisGrid != null)
+        try
         {
-            _xAxisGrid.ColumnDefinitions.Clear();
-            _xAxisGrid.Children.Clear();
-            var datasSource = (DatasSource as IEnumerable<BarChartData>).ToList();
-            var max = datasSource.Max(data => data.YData);
-            var columns = GetColumns(datasSource.Count);
-            for (int i = 0; i < columns.Count; i++)
+            _xAxisGrid = GetTemplateChild(XAxisGridPartName) as Grid;
+            if (_xAxisGrid != null)
             {
-                _xAxisGrid.ColumnDefinitions.Add(columns[i]);
-                var newItem = GetNewXAxis(datasSource[i]);
-                newItem.MaxYData = max;
-                Grid.SetColumn(newItem, i);
-                _xAxisGrid.Children.Add(newItem);
+                _xAxisGrid.ColumnDefinitions.Clear();
+                _xAxisGrid.Children.Clear();
+                var datasSource = (DatasSource as IEnumerable<BarChartData>).ToList();
+                var max = datasSource.Max(data => data.YData);
+                var columns = GetColumns(datasSource.Count);
+                for (int i = 0; i < columns.Count; i++)
+                {
+                    _xAxisGrid.ColumnDefinitions.Add(columns[i]);
+                    var newItem = GetNewXAxis(datasSource[i]);
+                    newItem.MaxYData = max;
+                    Grid.SetColumn(newItem, i);
+                    _xAxisGrid.Children.Add(newItem);
+                }
             }
         }
+        catch (Exception ex) { }
     }
 }
