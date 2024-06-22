@@ -15,7 +15,8 @@
 		<StackPanel>
 			<min:Button Width="100"
 						Height="30"
-						Cursor="Hand">Switch Theme</min:Button>
+						Cursor="Hand"
+						Command="{Binding OnClickSwitchThemeCommand}">Switch Theme</min:Button>
 			<min:SwitchButton Margin="10"
 							  Width="80"
 							  Height="30"></min:SwitchButton>

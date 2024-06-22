@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MinUI"
              StartupUri="MainWindow.xaml"
-			 xmlns:utils="clr-namespace:MinUI.Core.Utils;assembly=MinUI.Core">
+			 xmlns:utils="clr-namespace:MinUI.Test.Utils">
     <Application.Resources>
 		<ResourceDictionary>
-			<utils:ThemeSelector x:Key="ThemeSelector"/>
+			<utils:ViewSelector x:Key="ViewSelector"/>
 		</ResourceDictionary>
 	</Application.Resources>
 </Application>

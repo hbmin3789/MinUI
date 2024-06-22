@@ -5,15 +5,26 @@
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate TargetType="{x:Type ctrls:TabHeaderItem}">
-					<Grid>
-						<Grid.ColumnDefinitions>
-							<ColumnDefinition MinWidth="30"/>
-							<ColumnDefinition Width="*"/>
-						</Grid.ColumnDefinitions>
-						<!-- Icons -->
-						<ContentPresenter Content="{TemplateBinding Icon}"/>
-						<ContentPresenter Grid.Column="1" Content="{TemplateBinding Content}"/>
-					</Grid>
+					<Border Width="{TemplateBinding Width}"
+							Height="{TemplateBinding Height}"
+							Effect="{DynamicResource LightShadowEffect}"
+							CornerRadius="5" Cursor="Hand" Margin="3">
+						<Border Effect="{DynamicResource DarkShadowEffect}"
+								Background="{DynamicResource BackgroundBrush}"
+								CornerRadius="5">
+							<Grid HorizontalAlignment="Center">
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition MaxWidth="30" />
+									<ColumnDefinition Width="*" />
+								</Grid.ColumnDefinitions>
+								<!-- Icons -->
+								<ContentPresenter Content="{TemplateBinding Icon}" />
+								<ContentPresenter Grid.Column="1"
+												  Content="{TemplateBinding Content}" 
+												  DataContext="{TemplateBinding DataContext}"/>
+							</Grid>
+						</Border>
+					</Border>
 				</ControlTemplate>
 			</Setter.Value>
 		</Setter>

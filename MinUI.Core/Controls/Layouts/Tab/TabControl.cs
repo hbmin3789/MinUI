@@ -19,13 +19,33 @@ public class TabControl : NeumorphCollectionBase
         DefaultStyleKeyProperty.OverrideMetadata(typeof(TabControl), new FrameworkPropertyMetadata(typeof(TabControl)));
     }
 
-    public static readonly DependencyProperty TabHeaderProperty = DependencyProperty.Register(
-        nameof(TabHeader), typeof(List<TabHeaderItem>), typeof(TabControl), new FrameworkPropertyMetadata(new List<TabHeaderItem>(), FrameworkPropertyMetadataOptions.AffectsArrange));
+    #region DependencyProperties
 
-    public List<TabHeaderItem> TabHeader
+    public static readonly DependencyProperty HeaderItemsProperty = DependencyProperty.Register(
+        nameof(HeaderItems), typeof(List<TabHeaderItem>), typeof(TabControl), new FrameworkPropertyMetadata(new List<TabHeaderItem>(), FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public List<TabHeaderItem> HeaderItems
     {
-        get => (List<TabHeaderItem>)GetValue(TabHeaderProperty);
-        set => SetValue(TabHeaderProperty, value);
+        get => (List<TabHeaderItem>)GetValue(HeaderItemsProperty);
+        set => SetValue(HeaderItemsProperty, value);
+    }
+
+    public static readonly DependencyProperty HeaderWidthProperty = DependencyProperty.Register(
+        nameof(HeaderWidth), typeof(GridLength), typeof(TabControl), new FrameworkPropertyMetadata(default(GridLength), FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public GridLength HeaderWidth
+    {
+        get => (GridLength)GetValue(HeaderWidthProperty);
+        set => SetValue(HeaderWidthProperty, value);
+    }
+
+    public static readonly DependencyProperty HeaderHeightProperty = DependencyProperty.Register(
+        nameof(HeaderHeight), typeof(GridLength), typeof(TabControl), new FrameworkPropertyMetadata(default(GridLength), FrameworkPropertyMetadataOptions.AffectsArrange));
+
+    public GridLength HeaderHeight
+    {
+        get => (GridLength)GetValue(HeaderHeightProperty);
+        set => SetValue(HeaderHeightProperty, value);
     }
 
     public static readonly DependencyProperty TabContentItemsProperty = DependencyProperty.Register(
@@ -37,18 +57,50 @@ public class TabControl : NeumorphCollectionBase
         set => SetValue(TabContentItemsProperty, value);
     }
 
-    public static readonly DependencyProperty DefaultTypeProperty = DependencyProperty.Register(
-        nameof(DefaultType), typeof(Type), typeof(TabControl), new FrameworkPropertyMetadata(default(Type), FrameworkPropertyMetadataOptions.AffectsArrange));
+    public static readonly DependencyProperty SelectedItemProperty = DependencyProperty.Register(
+        nameof(SelectedItem), typeof(object), typeof(TabControl), new FrameworkPropertyMetadata(default(object), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault, OnSelectedItemChanged));
 
-    public Type DefaultType
+    private static void OnSelectedItemChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
     {
-        get => (Type)GetValue(DefaultTypeProperty);
-        set => SetValue(DefaultTypeProperty, value);
+        var inst = (TabControl)d;
+        inst.UpdateContent();
     }
+
+    [Bindable(true,BindingDirection.TwoWay)]
+    public object SelectedItem
+    {
+        get => GetValue(SelectedItemProperty);
+        set => SetValue(SelectedItemProperty, value);
+    }
+
+    public static readonly DependencyProperty ContentProperty = DependencyProperty.Register(
+        nameof(Content), typeof(object), typeof(TabControl), new FrameworkPropertyMetadata(default(object), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault, OnSelectedItemChanged));
+
+    public object Content
+    {
+        get => (object)GetValue(ContentProperty);
+    }
+
+    #endregion
 
     public TabControl()
     {
         
+    }
+
+    protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo)
+    {
+        base.OnRenderSizeChanged(sizeInfo);
+        UpdateContent();
+    }
+
+    private void UpdateContent()
+    {
+        var item = TabContentItems.Where(x => x.DataType == SelectedItem.GetType()).FirstOrDefault();
+        if (item != null)
+        {
+            SetValue(ContentProperty, item);
+        }
     }
 }
 

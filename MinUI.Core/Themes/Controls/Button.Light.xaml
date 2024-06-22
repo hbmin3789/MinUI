@@ -33,44 +33,10 @@
 	</ControlTemplate>
 	<Style TargetType="{x:Type ctrls:Button}">
 		<Style.Triggers>
-			<EventTrigger RoutedEvent="MouseDown">
-				<BeginStoryboard>
-					<Storyboard>
-						<BooleanAnimationUsingKeyFrames Storyboard.TargetProperty="IsMouseDown" Duration="0:0:0">
-							<BooleanAnimationUsingKeyFrames.KeyFrames>
-								<DiscreteBooleanKeyFrame KeyTime="0:0:0" Value="True" />
-							</BooleanAnimationUsingKeyFrames.KeyFrames>
-						</BooleanAnimationUsingKeyFrames>
-					</Storyboard>
-				</BeginStoryboard>
-			</EventTrigger>
-			<EventTrigger RoutedEvent="MouseUp">
-				<BeginStoryboard>
-					<Storyboard>
-						<BooleanAnimationUsingKeyFrames Storyboard.TargetProperty="IsMouseDown" Duration="0:0:0">
-							<BooleanAnimationUsingKeyFrames.KeyFrames>
-								<DiscreteBooleanKeyFrame KeyTime="0:0:0" Value="False" />
-							</BooleanAnimationUsingKeyFrames.KeyFrames>
-						</BooleanAnimationUsingKeyFrames>
-					</Storyboard>
-				</BeginStoryboard>
-			</EventTrigger>
-			<EventTrigger RoutedEvent="MouseLeave">
-				<BeginStoryboard>
-					<Storyboard>
-						<BooleanAnimationUsingKeyFrames Storyboard.TargetProperty="IsMouseDown" Duration="0:0:0">
-							<BooleanAnimationUsingKeyFrames.KeyFrames>
-								<DiscreteBooleanKeyFrame KeyTime="0:0:0" Value="False" />
-							</BooleanAnimationUsingKeyFrames.KeyFrames>
-						</BooleanAnimationUsingKeyFrames>
-					</Storyboard>
-				</BeginStoryboard>
-			</EventTrigger>
-			
-			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=IsMouseDown}" Value="True">
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=IsPressed}" Value="True">
 				<Setter Property="Template" Value="{StaticResource MousePressedButtonControlTemplate}" />
 			</DataTrigger>
-			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=IsMouseDown}" Value="False">
+			<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self},Path=IsPressed}" Value="False">
 				<Setter Property="Template" Value="{StaticResource CommonButtonControlTemplate}" />
 			</DataTrigger>
 		</Style.Triggers>

@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace MinUI.Core;
 
 public class TabHeader : NeumorphCollectionBase
 {
-    public static readonly DependencyProperty HeaderItemsProperty = DependencyProperty.Register(
-        nameof(HeaderItems), typeof(List<TabHeaderItem>), typeof(TabHeader), new FrameworkPropertyMetadata(default(List<TabHeaderItem>), FrameworkPropertyMetadataOptions.AffectsArrange));
-
-    public List<TabHeaderItem> HeaderItems
+    public TabHeader()
     {
-        get => (List<TabHeaderItem>)GetValue(HeaderItemsProperty);
-        set => SetValue(HeaderItemsProperty, value);
+
     }
 }

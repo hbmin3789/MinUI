@@ -12,13 +12,7 @@
 						<Border Effect="{DynamicResource DarkShadowEffect}"
 								Background="{DynamicResource BackgroundBrush}"
 								CornerRadius="5">
-
-							<!--<ListView Background="Transparent"
-									  BorderThickness="0"
-									  ItemsSource="{TemplateBinding ItemsSource}"
-									  ItemTemplate="{TemplateBinding ItemTemplate}"
-									  ItemContainerStyle="{TemplateBinding ItemContainerStyle}" />-->
-							<StackPanel>
+							<StackPanel Width="{TemplateBinding Width}">
 								<ItemsPresenter />
 							</StackPanel>
 						</Border>

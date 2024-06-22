@@ -12,16 +12,19 @@
 		xmlns:chart="clr-namespace:MinUI.Core.Charts;assembly=MinUI.Core"
 		xmlns:ctrls="clr-namespace:MinUI.Test.Controls"
 		xmlns:vm="clr-namespace:MinUI.Test.ViewModels"
-		DataContext="{StaticResource ThemeSelector}">
+		DataContext="{StaticResource ViewSelector}">
 	<Grid Background="{DynamicResource BackgroundBrush}">
-		<min:TabControl ItemsSource="{Binding Viewmodels}"
-						DefaultType="{x:Type vm:MainViewModel}">
-			<min:TabControl.TabHeader>
-				<min:TabHeaderItem DataContext="{Binding MainViewModel}"
-								   Content="Main" />
-				<min:TabHeaderItem DataContext="{Binding ChartViewModel}"
-								   Content="Charts" />
-			</min:TabControl.TabHeader>
+		<min:TabControl ItemsSource="{Binding ViewModels}"
+						SelectedItem="{Binding SelectedViewModel}"
+						HeaderWidth="100">
+			<min:TabControl.HeaderItems>
+				<min:TabHeaderItem Command="{Binding OnClickTabHeaderCommand}" CommandParameter="0">
+					<TextBlock Text="Main" FontSize="20" />
+				</min:TabHeaderItem>
+				<min:TabHeaderItem Command="{Binding OnClickTabHeaderCommand}" CommandParameter="1">
+					<TextBlock Text="Charts" FontSize="20" />
+				</min:TabHeaderItem>
+			</min:TabControl.HeaderItems>
 			<min:TabControl.TabContentItems>
 				<min:TabContentItem DataType="{x:Type vm:MainViewModel}">
 					<ctrls:CommonControls />
