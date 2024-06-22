@@ -12,7 +12,7 @@
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/Card.Light.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Controls/Accordion.Light.xaml" />
 		<!-- Layouts -->
-		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Layouts/Generic.Light.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Layouts/Generic.xaml" />
 		<!-- Charts -->
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Charts/Charts.xaml" />
 		<!-- Effects -->

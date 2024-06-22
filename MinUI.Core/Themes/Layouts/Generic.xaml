@@ -3,6 +3,6 @@
 	<ResourceDictionary.MergedDictionaries>
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Layouts/TabControl/TabHeaderItem.xaml" />
 		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Layouts/TabControl/TabHeader.xaml" />
-		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Layouts/TabControl/TabControl.Light.xaml" />
+		<ResourceDictionary Source="pack://application:,,,/MinUI.Core;component/Themes/Layouts/TabControl/TabControl.xaml" />
 	</ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
