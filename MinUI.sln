@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinUI.Color", "MinUI.Color\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinUI.DownloadTest", "MinUI.DownloadTest\MinUI.DownloadTest.csproj", "{F8CA0671-DC3B-4341-8650-970D4A41E9A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinUI.Download.Frontend", "MinUI.Download.Frontend\MinUI.Download.Frontend.csproj", "{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinUI.Download.Frontend", "MinUI.Download.Frontend\MinUI.Download.Frontend.csproj", "{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

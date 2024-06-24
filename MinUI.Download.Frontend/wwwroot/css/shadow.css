@@ -1,0 +1,9 @@
+﻿.shadow-background {
+    border-radius: 1rem;
+    background: #e0e0e0;
+}
+
+.shadow-effect {
+    box-shadow: 10px 10px 20px #bcbcbc,
+                -10px -10px 20px #ffffff;
+}
