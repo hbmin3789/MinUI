@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "B:\\Workspace\\MinUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\pages\\mainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\pages\\mainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\body.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\layout\\body.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\body.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\layout\\body.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\header.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\layout\\header.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\pages\\documentpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\pages\\documentpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\pages\\mainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\pages\\mainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\wwwroot\\css\\shadow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\wwwroot\\css\\shadow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|solutionrelative:minui.download.frontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6666C5FA-2C68-4F81-88BA-8AFBB0D8AF39}|MinUI.Download.Frontend\\MinUI.Download.Frontend.csproj|b:\\workspace\\minui\\minui.download.frontend\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -38,24 +62,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "shadow.css",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\wwwroot\\css\\shadow.css",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\wwwroot\\css\\shadow.css",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\wwwroot\\css\\shadow.css",
+              "RelativeToolTip": "MinUI.Download.Frontend\\wwwroot\\css\\shadow.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T04:49:16.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Body.razor",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Body.razor",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\Body.razor",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Body.razor",
+              "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\Body.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T04:44:43.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\_Imports.razor",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\_Imports.razor",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\_Imports.razor",
+              "RelativeToolTip": "MinUI.Download.Frontend\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:03:48.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainPage.razor",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Pages\\MainPage.razor",
               "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Pages\\MainPage.razor",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Pages\\MainPage.razor",
               "RelativeToolTip": "MinUI.Download.Frontend\\Pages\\MainPage.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-24T04:03:42.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "index.html",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "MinUI.Download.Frontend\\wwwroot\\index.html",
@@ -63,8 +126,7 @@
               "RelativeToolTip": "MinUI.Download.Frontend\\wwwroot\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-24T03:57:17.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T03:57:17.233Z"
             },
             {
               "$type": "Document",
@@ -74,14 +136,14 @@
               "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\Header.razor.css",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Header.razor.css",
               "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\Header.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-24T03:51:20.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Header.razor.css",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Header.razor.css",
               "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\Header.razor.css",
@@ -89,12 +151,11 @@
               "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\Header.razor.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-24T03:42:11.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T03:42:11.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\MainLayout.razor.css",
@@ -102,21 +163,7 @@
               "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\MainLayout.razor.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-24T03:40:55.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Header.razor",
-              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Header.razor",
-              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\Header.razor",
-              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Header.razor",
-              "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\Header.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T03:40:12.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T03:40:55.148Z"
             },
             {
               "$type": "Document",
@@ -126,9 +173,61 @@
               "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\MainLayout.razor",
               "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\MainLayout.razor",
               "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-24T03:28:05.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Header.razor",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Header.razor",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\Header.razor",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Header.razor",
+              "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\Header.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:40:12.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Body.razor.css",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Body.razor.css",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Layout\\Body.razor.css",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Layout\\Body.razor.css",
+              "RelativeToolTip": "MinUI.Download.Frontend\\Layout\\Body.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T04:45:04.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentPage.razor",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Pages\\DocumentPage.razor",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\Pages\\DocumentPage.razor",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\Pages\\DocumentPage.razor",
+              "RelativeToolTip": "MinUI.Download.Frontend\\Pages\\DocumentPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T04:58:26.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\App.razor",
+              "RelativeDocumentMoniker": "MinUI.Download.Frontend\\App.razor",
+              "ToolTip": "B:\\Workspace\\MinUI\\MinUI.Download.Frontend\\App.razor",
+              "RelativeToolTip": "MinUI.Download.Frontend\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:03:48.96Z",
               "EditorCaption": ""
             }
           ]
