@@ -1,0 +1,35 @@
+﻿.shadow-background {
+    border-radius: 1rem;
+    background: #e0e0e0;
+}
+
+.shadow-effect {
+    box-shadow: 10px 10px 20px #bcbcbc,
+                -10px -10px 20px #ffffff;
+}
+
+.neumorphism-shadow-effect-embossed {
+    border-radius: 1rem;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff;
+}
+
+.neumorphism-shadow-effect-engraved {
+    border-radius: 1rem;
+    background: #e0e0e0;
+    box-shadow: inset 10px 10px 20px #bcbcbc, inset -10px -10px 20px #ffffff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.neumorphism-shadow-effect-embossed:active {
+    border: none;
+    border-radius: 1rem;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #ffffff;
+    color: black;
+    text-decoration: none;
+}
